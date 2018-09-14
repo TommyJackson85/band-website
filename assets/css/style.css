@@ -1,0 +1,164 @@
+/*----------------------------------------images*/
+
+.profile-image {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-image: url("../images/scorpions1.jpg");
+    background-color: #cccccc;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    transition: all .5 ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5 ease-in-out;
+}
+
+.band-main-heading {
+    height: 50px;
+}
+
+.heading, .heading .band-main-heading {
+    /*image file*/
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.band-footer-logo {
+    height: 150px;
+    margin-top: 30px;
+}
+
+/*---------------------------background colours*/
+
+header, .bg-color-name-title, footer {
+    background-color: #191919;
+}
+.menu-links {
+    padding-left: 0;
+    padding-right: 0;
+}
+.menuitem {
+    background-color: #ad2d2d;
+}
+.menuitem:hover {
+    background-color: #F5E44C;
+}
+/*.ul-menu-color-music {
+    background-color: #aaaaaa;
+}
+
+.ul-menu-color-contact {
+    background-color: #aaaaaa;
+}
+
+.ul-menu-color-photos {
+    background-color: #aaaaaa;
+}*/
+
+/*-------------------------------------heading*/
+
+.band-sub-heading {
+    color: #ffffff;
+    padding: 0 0 0 20px;
+    margin-left: 0 0 0 15px;
+}
+
+.menu-links .list-inline {
+    margin-left: 0 !important;
+}
+
+.menuitem{
+    height: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 100px;
+}
+
+/*.menuitem a i{
+     padding-top: 15px;
+     display: block;
+     color: #fafafa;
+     font-size: 26px;
+}*/
+
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.music-links a i {
+     color: #ad2d2d;
+    font-size: 50px;
+    padding: 20px 15px 0 15px;
+    float: right;
+}
+.music-links a i:hover {
+    color: #F5E44C;
+}
+
+
+/*--------------------------------------footer*/
+footer h5 {
+    font-size: 30px;
+    color: #bdc3c7;
+    padding: 5px 0 5px 5px;
+} 
+.social-links li a i {
+    color: #ad2d2d;
+    font-size: 60px;
+    padding: 18px;
+}
+.social-links li a i:hover {
+    color: #F5E44C;
+}
+
+/*-----------------------------------Hover css*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.2);
+    height: 40px;
+}
+
+/*----------------------------------------span*/
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.block {
+    display: block; /* since, div, I don't need this right ?*/
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    header{
+        background-color: orange;
+    }
+    
+}
+
+@media (min-width: 400px) {
+    header{
+        background-color: green;
+    }
+    
+}  
+
