@@ -16,18 +16,19 @@
 }
 
 .band-main-heading {
-    height: 50px;
+    height: 43px;
 }
 
-.heading, .heading .band-main-heading {
+.heading, .band-main-heading {
     /*image file*/
     padding: 5px;
     margin-left: 0px;
 }
 
 .band-footer-logo {
-    height: 150px;
+    height: 70px;
     margin-top: 30px;
+    margin-left: 0;
 }
 
 /*---------------------------background colours*/
@@ -83,10 +84,7 @@ header, .bg-color-name-title, footer {
 }
 
 /*.menuitem a i{
-     padding-top: 15px;
-     display: block;
-     color: #fafafa;
-     font-size: 26px;
+     font-size: 76px;
 }*/
 
 .menuitem span{
@@ -95,14 +93,14 @@ header, .bg-color-name-title, footer {
     padding-top: 12px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
 .music-links a i {
      color: #ad2d2d;
-    font-size: 50px;
+    font-size: 35px;
     padding: 20px 15px 0 15px;
     float: right;
 }
@@ -112,15 +110,25 @@ header, .bg-color-name-title, footer {
 
 
 /*--------------------------------------footer*/
+footer {
+    padding-left: 0;
+}
 footer h5 {
-    font-size: 30px;
+   /* font-size: 30px;*/
     color: #bdc3c7;
     padding: 5px 0 5px 5px;
 } 
+
+.logo-div {
+    padding-top: 24px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
 .social-links li a i {
     color: #ad2d2d;
-    font-size: 60px;
-    padding: 18px;
+    font-size: 30px;
+    padding: 5px;
 }
 .social-links li a i:hover {
     color: #F5E44C;
@@ -148,17 +156,103 @@ footer h5 {
     width: 100%;
 }
 
-@media (min-width: 320px) {
-    header{
-        background-color: orange;
-    }
-    
-}
 
 @media (min-width: 400px) {
-    header{
-        background-color: green;
+    
+    .band-main-heading {
+        height: 50px;
     }
     
-}  
+    .heading, .band-main-heading {
+        padding: 5px;
+        margin-left: 0px;
+    }
+    
+    .music-links a i {
+        font-size: 42px;
+        padding: 22px 15px 0 15px;
+        float: right;
+    }
+    
+    .band-footer-logo {
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .social-links li a i {
+        font-size: 32px;
+        padding: 5px;
+    }
+} 
+
+@media (min-width: 504px) {
+    
+    .band-main-heading {
+        height: 50px;
+    }
+    
+    .heading, .band-main-heading {
+        padding: 5px;
+        margin-left: 0px;
+    }
+    
+    .music-links a i {
+        font-size: 42px;
+        padding: 22px 15px 0 15px;
+        float: right;
+    }
+    
+    .band-footer-logo {
+        height: 90px;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    
+    .social-media-heading {
+        padding-top: 25px;
+    }
+    
+    .social-links li a i {
+        font-size: 32px;
+        padding: 5px;
+    }
+} 
+
+@media (min-width: 768px) {
+    
+    .band-main-heading {
+        height: 60px;
+    }
+    
+    .heading, .band-main-heading {
+        padding: 5px;
+        margin-left: 0px;
+    }
+    
+    .heading p {
+        font-size: 14px;
+    }
+    
+    .music-links a i {
+        font-size: 50px;
+        padding: 22px 15px 0 15px;
+        float: right;
+    }
+    
+    .band-footer-logo {
+        height: 90px;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    
+    .social-media-heading {
+        padding-top: 0;
+    }
+    
+    .social-links li a i {
+        font-size: 30px;
+        padding: 5px;
+    }
+} 
 
