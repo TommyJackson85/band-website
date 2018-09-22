@@ -1,6 +1,13 @@
+/*-----------------body and base measurements*/
+
+body {
+    padding: 0 0;
+    margin: 0 0;
+}
+
 /*----------------------------------------images*/
 
-.profile-image {
+.band-profile-image {
     padding: 0;
     margin: 0;
     height: 100%;
@@ -25,7 +32,7 @@
     margin-left: 0px;
 }
 
-.band-footer-logo {
+.footer-logo {
     height: 70px;
     margin-top: 30px;
     margin-left: 0;
@@ -33,7 +40,7 @@
 
 /*---------------------------background colours*/
 
-header, .bg-color-name-title, footer {
+header, footer {
     background-color: #191919;
 }
 .menu-links {
@@ -46,19 +53,30 @@ header, .bg-color-name-title, footer {
 .menuitem:hover {
     background-color: #F5E44C;
 }
-/*.ul-menu-color-music {
-    background-color: #aaaaaa;
+
+.home-page{
+    background-color: #404040;
 }
 
-.ul-menu-color-contact {
-    background-color: #aaaaaa;
+.main-section {
+    background-color: #404040;
 }
 
-.ul-menu-color-photos {
-    background-color: #aaaaaa;
-}*/
+.song-sample-list {
+    background-color: #ad2d2d;
+}
+
+.tour-dates-list, .tour-dates-list .list-group .list-group-item {
+    background-color: #F5E44C;
+}
 
 /*-------------------------------------heading*/
+
+header {
+    padding: 0 0;
+    margin: 0 0;
+    border-bottom: 1px solid #191919;
+}
 
 .band-sub-heading {
     color: #ffffff;
@@ -83,10 +101,6 @@ header, .bg-color-name-title, footer {
     height: 100px;
 }
 
-/*.menuitem a i{
-     font-size: 76px;
-}*/
-
 .menuitem span{
     display: block;
     width: 100%;
@@ -108,8 +122,8 @@ header, .bg-color-name-title, footer {
     color: #F5E44C;
 }
 
-
 /*--------------------------------------footer*/
+
 footer {
     padding-left: 0;
 }
@@ -119,18 +133,19 @@ footer h5 {
     padding: 5px 0 5px 5px;
 } 
 
-.logo-div {
+.footer-logo-div {
     padding-top: 24px;
     padding-left: 0;
     margin-left: 0;
 }
 
-.social-links li a i {
+.social-media-links li a i {
     color: #ad2d2d;
     font-size: 30px;
     padding: 5px;
 }
-.social-links li a i:hover {
+
+.social-media-links li a i:hover {
     color: #F5E44C;
 }
 
@@ -156,6 +171,86 @@ footer h5 {
     width: 100%;
 }
 
+/*-----------------------------------main-section*/
+/*used to display an intro duction to the band and a promo video*/
+
+.main-section{
+    height: 100%;
+   /* background-color: red;*/
+    color: #ffffff;
+}
+
+.about{
+   /* margin: 15px 15px;*/
+    padding-top: 15px;
+}
+
+.video {
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.video, .video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*---------------------------------promotions*/
+/*promotes tour dates and songs from latest album*/
+.promotions {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+/*---------------------------------song lists*/
+
+.song-sample-list {
+    color: #F5E44C;
+    height: 100%;
+    /*background-color: green;*/
+    margin-top: 0;
+    padding: 20px 10px 25px 10px;
+}
+
+.song-sample-list h3 {
+    padding: 0 0 0 30px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.track {
+    width: 290px;
+    margin-left: 5%;
+}
+
+.track h4 {
+margin-left: 5px;
+}
+
+.controls {
+    width:100%;
+}
+
+/*-----------------------------tour date list*/
+
+.tour-dates-list {
+    height: 100%;
+    color: #680000;
+}
+
+.list-group-item {
+  /*  background-color: yellow;*/
+    border: 0px solid #404040;
+    border-bottom: 2px solid #404040;
+}
+
+.last-item {
+    border-bottom: 0;
+}
+
+/*----------------------------media queries*/
+
 
 @media (min-width: 400px) {
     
@@ -168,19 +263,30 @@ footer h5 {
         margin-left: 0px;
     }
     
+    .track {
+        width: 300px;
+        margin-left: 10%;
+    }
+    
+    .video, .video iframe {
+        width: 100%;
+        height: 250px;
+        margin: 0 0;
+    }
+    
     .music-links a i {
         font-size: 42px;
         padding: 22px 15px 0 15px;
         float: right;
     }
     
-    .band-footer-logo {
+    .footer-logo {
         height: 80px;
         margin-top: 20px;
         margin-left: 0;
     }
     
-    .social-links li a i {
+    .social-media-links li a i {
         font-size: 32px;
         padding: 5px;
     }
@@ -203,17 +309,29 @@ footer h5 {
         float: right;
     }
     
-    .band-footer-logo {
+    .track {
+        width: 300px;
+        margin-left: 15%;
+    }
+    
+    .video, .video iframe {
+        width: 460px;
+        height: 300px;
+         margin: 0 auto;
+        position: center;
+    }
+    
+    .footer-logo {
+        margin: 0 0 0 0;
+        padding-top: 0 0 7px 0;
         height: 90px;
-        margin-top: 0px;
-        margin-left: 0;
     }
     
     .social-media-heading {
         padding-top: 25px;
     }
     
-    .social-links li a i {
+    .social-media-links li a i {
         font-size: 32px;
         padding: 5px;
     }
@@ -234,31 +352,62 @@ footer h5 {
         font-size: 14px;
     }
     
+    .video {
+        padding: 15px 0 0 0px;
+        margin: 0 auto;
+        
+    }
+    
+    .about{
+        margin-top: 15px;
+        padding: 15px 6% 5px 6%;
+    }
+
+    .track {
+        width:100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
     .music-links a i {
         font-size: 50px;
         padding: 22px 15px 0 15px;
         float: right;
     }
-    
-    .band-footer-logo {
-        margin: 0 0 5px 0;
-        padding-top: 15px;
-        height: 90px;
-        
+  
+    .footer-logo-div {
+        padding-top: 19px;
+        padding-left: 0;
+        margin-left: 0;
     }
     
-    .log-div {
-        padding: 0 0;
-        height: 100%;
-    }    
+    .footer-logo {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        height: 90px;
+    }
     
     .social-media-heading {
         padding-top: 0;
     }
     
-    .social-links li a i {
+    .social-media-links li a i {
         font-size: 30px;
         padding: 5px;
     }
-} 
+}
 
+@media (min-width: 991px) {
+    
+    .footer-logo-div {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 0;
+    }
+    
+    .footer-logo {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        height: 90px;
+    }
+}
