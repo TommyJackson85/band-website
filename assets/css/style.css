@@ -38,6 +38,10 @@ body {
     margin-left: 0;
 }
 
+.album img {
+    width: 100px;
+}
+
 /*---------------------------background colours*/
 
 header, footer {
@@ -54,10 +58,12 @@ header, footer {
     background-color: #F5E44C;
 }
 
-.home-page{
+.home-page, .music-page{
     background-color: #404040;
 }
-
+.music-page {
+     background-color: #ad2d2d;
+}
 .main-section {
     background-color: #404040;
 }
@@ -171,7 +177,7 @@ footer h5 {
     width: 100%;
 }
 
-/*-----------------------------------main-section*/
+/*-----------------------------------home page( main-section )*/
 /*used to display an intro duction to the band and a promo video*/
 
 .main-section{
@@ -203,8 +209,8 @@ footer h5 {
     margin: 0 0 0 0;
 }
 
-/*---------------------------------song lists*/
-
+/*---------------------------------Music (for Home Page and Music Page )*/
+    /*---home page*/
 .song-sample-list {
     color: #F5E44C;
     height: 100%;
@@ -216,7 +222,6 @@ footer h5 {
 .song-sample-list h3 {
     padding: 0 0 0 30px;
     margin-top: 0;
-    margin-left: 5px;
 }
 
 .track {
@@ -225,11 +230,44 @@ footer h5 {
 }
 
 .track h4 {
-margin-left: 5px;
+    margin-left: 5px;
 }
 
 .controls {
     width:100%;
+}
+    /*----music page*/
+.music-page, .music-page .main-section {
+    padding: 0;
+}
+
+.album {
+    padding: 10px 5px;
+    border-bottom: solid 1px  #191919;
+}
+
+.album-details {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.album-details img {
+    margin-right: 5px;
+    float: left;
+}
+.album-details h5, .album-details a i {
+    margin-top: 2px;
+    /*float: left;*/
+}
+
+.album-details a i {
+    color: #ad2d2d;
+    font-size: 35px;
+    padding: 0px 0px 0px 20px;
+}
+
+.album-tracks .controls {
+    max-width: 294px;
 }
 
 /*-----------------------------tour date list*/
@@ -290,6 +328,27 @@ margin-left: 5px;
         font-size: 32px;
         padding: 5px;
     }
+    
+    /*music page*/
+    .album {
+        padding-left: 15px;
+    }
+   .album-details img {
+        width: 140px;
+    }
+    
+    .album-details h5 {
+        font-size: 1.7rem;
+    }
+    .album-details a i {
+        font-size: 42px;
+    }
+    .album-tracks{
+        padding-left: 5%;
+    }
+    .album-tracks .controls {
+        max-width: 320px;
+    }
 } 
 
 @media (min-width: 504px) {
@@ -334,6 +393,15 @@ margin-left: 5px;
     .social-media-links li a i {
         font-size: 32px;
         padding: 5px;
+    }
+    .album-details {
+        margin-left: 5%;
+    }
+    .album-details h5 {
+        font-size: 2rem;
+    }
+    .album-tracks {
+        padding-left: 15%;
     }
 } 
 
@@ -395,6 +463,27 @@ margin-left: 5px;
         font-size: 30px;
         padding: 5px;
     }
+    /*---music page*/
+    
+    .album-details {
+        padding: 15px 10px 0;
+        margin-left: 0;
+    }
+    
+    .album-details img {
+        width: 180px;
+        margin-left: 15px;
+    }
+    
+    .album-details h5, .album-tracks h5 {
+        padding-top: 5px;
+        font-size: 1.5rem;
+    }
+    
+    .album-tracks {
+        padding-top: 7px;
+        padding-left: 15px;
+    }
 }
 
 @media (min-width: 991px) {
@@ -410,4 +499,23 @@ margin-left: 5px;
         padding: 0 0 0 0;
         height: 90px;
     }
+    
+    .album-details {
+        padding: 15px 15px 0;
+        margin-left: 0;
+    }
+    
+    .album-details img {
+        width: 180px;
+    }
+    
+    .album-details h5 {
+        padding-top: 5px;
+        font-size: 1.5rem;
+    }
+    
+    .album-tracks {
+        padding-left: 10px;
+    }
+    
 }

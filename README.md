@@ -66,8 +66,58 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-- Another feature idea
+#### Home Page
+
+The home page page will consist of three sections: (a) A promotion of two songs from their latest (b) a list of tour dates, 
+and the (c) main section which is largest part of the page and will have varied content.
+
+The top of the main section will have a video promotion to promote the bands tour. This is so fans are immediately of the tour.
+Below the video will be a very description of the band and the website, this is primarily for new potential fans to take interest.
+Then below the description will be a list of the band members in the band, which is also for new potential fans.
+
+The new songs promotion and tour dates list will be stacked ontop of each other to the right to create a side bar. All three sections will have different background colours to make the impression that they are different.
+
+I am trying to make the home page to be as random as possible, 
+while also providing as much previews and important fan content. 
+I got the inspirations from other band websites, such as Metallicas and Iron Maidens, 
+which both also has a 'random content' feel.
+
+For the tour guide list, I used Metallica's tour guide list as a guide on text sizes and designs.
+
+#### Music Page
+
+I will use this page to display all the sample songs I intend have available. There will be three albums on display, with two tracks chosen from each album.
+
+For the track controls, I used simular design and the same sizes of the track controls and track headings.
+
+The first Album will be latest album and will contain the two tracks from the home page. 
+This is to help fans find the new tracks more easily. The other two albums will two of their classic albums from the 80's.
+
+I will provide spotify and iTunes links on each album. Each will link the user to the full albums that are ready to be purchased or played.
+I will used the same colour schemes from and design patterns from the home page to provide consitency for the users.
+
+I took inspiration from other bands Discography pages on their website, particularly on how they display the album cover picture and details
+Metallica's and Iron Maiden's website were once again an inspiration in terms of design.
+
+### Features Left to implement
+
+#### More content on the home page, and removal of content from the home page.
+
+I may also had more content to the home page, such as fan art, music videos and news feeds.
+
+I may also remove content, such as the band/website descrion and list of band members. 
+I could create a History page which would go through this kind of informtion in more detail instead.
+
+If I was to remove this information, it would mean the Home Page would be primarily used for previews of webpage content and promotional materials.
+Other bands have used their home page primarily for this reason. 
+I believe that displaying audio, video and photographic material is the best way to have fans interested in the website and it makes the website more interactive.
+
+#### Expansion on the Music page.
+I indend to create a more complex UI system for the Music Page. 
+I will have the music page display all the album covers as images. 
+Each Album cover will work as a link. 
+Each link will bring the user to a page dedicated to the album, providing full details and credits of the album, full song lists and song lyrics. 
+From this page I will also have a link that brings the user back to the album listings page, for better user experience.
 
 ## Technologies Used
 
