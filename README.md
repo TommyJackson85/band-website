@@ -99,6 +99,28 @@ I will used the same colour schemes from and design patterns from the home page 
 I took inspiration from other bands Discography pages on their website, particularly on how they display the album cover picture and details
 Metallica's and Iron Maiden's website were once again an inspiration in terms of design.
 
+#### Photos Page
+
+For the photos page I utilized a lightbox system. 
+
+Upon opening the Photos page, there is a collection of photos available for the user to see. The user can't see the image at its full capacity, but all the images are matching at the same width and height, without being stretched. 
+They are also evenly alligned at different screen lengths. The images are small enough for the user to get a full grasp of all the images on their first glance.
+
+Upon clicking an image of their choosing, a lightbox pops up. In which displays the image as big as possible. The individual images are large enough for the user to grasp them. 
+
+Below the enlarged image on the lightbox, the user can see the same collection of images from initally opening the photos page. 
+This is to allow the user to search through the images without closing the lightbox. 
+I also utilised next and previous buttons for the user to schroll though all the pictures. 
+The two buttons are in a fixed position so they wont move when clicking through, this is important because the lightbox changes its size depending on the image. 
+Keeping them in place provides a better user experience. 
+There is also an x button on the top incase the user wants to go back to the main page, where they can navigate the website again.
+
+This system for a photo collection is used on many bands websites such as metallicas. 
+
+For further information of the technology of the lightbox please view the Technologies Used section below.
+
+I also used the same color schemes from the Music Page to keep the website as consistant as possible, however the main-section (grey background is alot wider than on the Music Page. This was to keep as many of the images as possible in view.)
+
 ### Features Left to implement
 
 #### More content on the home page, and removal of content from the home page.
@@ -125,10 +147,87 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+    -
+    - Code for lightbox, from w3schools ( link: https://www.w3schools.com/howto/howto_js_lightbox.asp ; ).
+      Upon utilizing this code, I removed the column class and column css styling, and used bootstrap column grid system instead. 
+      This was to keep the website consistant with its use of Bootstrap. I also made several changed to the styling ( see the Existing Features about). 
+  
+### Photo's and Lightbox
 
+Photo credits: 
+
+- album1982.jpg
+- album1984.jpg
+- album2015.jpg
+
+- crazy-world-tour2017.jpg  
+  (copywrite credit: Claypaky twitter account @ClayPakyNews.
+    link: https://twitter.com/ClayPakyNews/status/956184655019028480  )
+
+- klaus-meine.jpg 
+  ( copywrite credit: Source: Ethan Miller/Getty Images North America ; secondary resource: Zimbio;
+    link: http://www.zimbio.com/photos/Klaus+Meine/Scorpions+Cinderella+Perform+Thomas+Mack+Center/Wr5wBuxvmI7 )
+
+- matthias-jabs.jpg 
+  (copywrite credit: https://www.gettyimages.ca/photos/matthias-jabs?page=10&sort=mostpopular&phrase=matthias%20jabs&family=editorial ;
+   link: https://www.gettyimages.ca/photos/matthias-jabs?page=9&sort=mostpopular&mediatype=photography&phrase=matthias%20jabs ;)
+
+- melbourne-2016.jpg
+  (copywrite: Silver Tiger Media and Roger Brooks Photography;
+   link: http://silvertigermedia.com.au/2016/10/scorpions-the-palais-theatre-melbourne-18102016/ ;)
+
+- mikkey-dee.jpg
+  ( copywrite: Metal-Hammer; Photo credit: Sarah Fleischer (www.sarahfleischer.de);
+    link: https://www.metal-hammer.de/scorpions-rekrutieren-motoerhead-schlagzeuger-mikkey-dee-616125/ ;)
+
+- pawel-maciwoda.jpg
+  ( copywrite: Zimbio;  Photo credit: Ethan Miller/Getty Images North America ;
+    link: http://www.zimbio.com/photos/Pawel+Maciwoda/Scorpions+Cinderella+Perform+Thomas+Mack+Center/2rKKSgji6PO ;)
+
+- rudolf-schenker.jpg
+  ( copywrite: Getty Images and Apollo ;
+    link: https://www.photos.com/pictures/rudolf-schenker ;)
+
+- scoripions-logo3.jpg
+ ( copywrite: Teepublic and Scorpions ;
+   link: https://www.teepublic.com/t-shirt/1167478-scorpions-logo ;
+  )
+
+- scorpions-name.png 
+  ( copywite: The Scorpions - Backstreet Merch and The Scorpions ; 
+    link: https://the-scorpions.backstreetmerch.com/ ; )
+
+- scorpions-on-tour.jpg 
+  ( copywrite:  Romanian Insider;
+    link: https://www.romania-insider.com/scorpions-bucharest-world-tour/ ;)
+
+- scorpions-on-tour2.jpg
+  (copywrite: ImgCop ;
+    link:https://imgcop.com/img/Scorpions-Band-1684375/  ;  
+  )
+
+- scorpions-on-tour3.jpg 
+  ( copywrite: U Discover Music;
+    link: https://www.udiscovermusic.com/news/scorpions-longevity-not-oldies-band/ ;
+  )
+
+- scorpions-on-tour4.png
+  ( copywrite: The Nokia Theatre at L.A. Live on July 31, 2010 ;
+    link: http://www.zimbio.com/pictures/_2BQwOKq7Cb/Scorpions+Cinderella+Performs+Nokia+Theatre/_M4n_eNuLvO/Matthias+Jabs ;
+  )
+
+- scorpions-on-tour5.jpg
+  ( copywrite: Rock Music Timeline;
+    link: http://www.rockmusictimeline.com/1991gallery.html ;
+  )
+
+- scorpions1.jpg
+  ( copywite: Getty Images, The Scorpions ;
+    link: https://www.gettyimages.ie/detail/news-photo/german-rock-band-the-scorpions-poses-for-a-portrait-in-1992-news-photo/494470885 ;
+  )
 
 ## Testing
-
+h  
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.

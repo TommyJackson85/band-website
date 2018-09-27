@@ -51,9 +51,165 @@
             </div>
         </header>
         <!--MAIN BODY-->
-        <section>
-            <h1>Photo Collection!</h1>
-        </section>
+       <section class="container-fluid">
+          <div class="row photos-page">
+            <div class="col-sm-xs col-md-10 col-md-offset-1 main-section">
+              <h3>Tour Photos</h3>
+              <h5>(Click each to enlarge)</h5>
+              <div class="photo-collection">
+                <div class="row">
+                  <div class="col-xs-6 col-sm-3 photo-preview">
+                    <img src="assets/images/rudolf-schenker.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6 col-sm-3 photo-preview">
+                    <img src="assets/images/klaus-meine.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6  col-sm-3 photo-preview">
+                    <img src="assets/images/mikkey-dee.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6 col-sm-3 photo-preview">
+                    <img src="assets/images/pawel-maciwoda.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6 col-sm-3 photo-preview">
+                    <img src="assets/images/matthias-jabs.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6 col-sm-3 photo-preview">
+                    <img src="assets/images/melbourne-2016.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6 col-sm-3 photo-preview">
+                    <img src="assets/images/scorpions-on-tour.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6  col-sm-3 photo-preview">
+                    <img src="assets/images/scorpions-on-tour2.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6  col-sm-3 photo-preview">
+                    <img src="assets/images/scorpions-on-tour3.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6  col-sm-3 photo-preview">
+                    <img src="assets/images/scorpions-on-tour4.png" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6  col-sm-3 photo-preview">
+                    <img src="assets/images/crazy-world-tour2017.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                  </div>
+                  <div class="col-xs-6 col-sm-3 photo-preview">
+                    <img src="assets/images/scorpions-on-tour5.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+            
+              <div class="mySlides">
+                <div class="numbertext">1 / 12</div>
+                <img src="assets/images/rudolf-schenker.jpg">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 12</div>
+                <img src="assets/images/klaus-meine.jpg">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">3 / 12</div>
+                <img src="assets/images/mikkey-dee.jpg">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">4 / 12</div>
+                <img src="assets/images/pawel-maciwoda.jpg">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 12</div>
+                <img src="assets/images/matthias-jabs.jpg">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">6 / 12</div>
+                <img src="assets/images/melbourne-2016.jpg">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                <img src="assets/images/scorpions-on-tour.jpg">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                <img src="assets/images/scorpions-on-tour2.jpg">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                <img src="assets/images/scorpions-on-tour3.jpg">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                <img src="assets/images/scorpions-on-tour4.png">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                <img src="assets/images/crazy-world-tour2017.jpg">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                <img src="assets/images/scorpions-on-tour5.jpg">
+              </div>  
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+              <div class="row">
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/rudolf-schenker.jpg" onclick="currentSlide(1)" alt="Rudolf Schenker">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/klaus-meine.jpg" onclick="currentSlide(2)" alt="Klaus Meine - August 3, 2010 in Las Vegas, Nevada.">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/mikkey-dee.jpg" onclick="currentSlide(3)" alt="Mikkey Dee">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/pawel-maciwoda.jpg" onclick="currentSlide(4)" alt="Pawel Maciwoda - August 3, 2010 in Las Vegas, Nevada.">                  
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/matthias-jabs.jpg" onclick="currentSlide(5)" alt="Matthias Jabs">                  
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/melbourne-2016.jpg" onclick="currentSlide(6)" alt="Scorpions On Tour - Melbourne, Australia (2016)">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/scorpions-on-tour.jpg" onclick="currentSlide(7)" alt="Scorpions On Tour (1)">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/scorpions-on-tour2.jpg" onclick="currentSlide(8)" alt="Scorpions On Tour (2)">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/scorpions-on-tour3.jpg" onclick="currentSlide(9)" alt="Scorpions On Tour (3)">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/scorpions-on-tour4.png" onclick="currentSlide(10)" alt="Scorpions On Tour (4) The Nokia Theatre at L.A. Live on July 31, 2010">
+                </div>
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/crazy-world-tour2017.jpg" onclick="currentSlide(11)" alt="Crazy World Tour 2017">
+                </div>                        
+                <div class="col-xs-6 col-sm-3 photo-preview">
+                  <img class="demo cursor" src="assets/images/scorpions-on-tour5.jpg" onclick="currentSlide(12)" alt="Scorpions On Tour(5) April 1991 - Hanover, Germany">     
+                </div>
+              </div>
+            </div>
+          </div>
+	      </section>
         <!--FOOTER-->        
         <footer class="container-fluid">
             <div id="footer-details" class="row">
@@ -77,5 +233,43 @@
                 </div>
             </div>
         </footer>
+        <script>
+            function openModal() {
+              document.getElementById('myModal').style.display = "block";
+            }
+            
+            function closeModal() {
+              document.getElementById('myModal').style.display = "none";
+            }
+            
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+    	</script>
     </body>    
 </html>
