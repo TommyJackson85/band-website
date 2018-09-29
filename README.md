@@ -1,5 +1,3 @@
-
-
 # Band-Website
 
 One or two paragraphs providing an overview of your project.
@@ -41,7 +39,7 @@ The music page will contain more of the bands music. However it will not be used
 
 The photos page will contain a vast variety of the band members and pictures of their tours.
 
-The gig hire page will have a contact form and will contain a list of scheduled gigs and dates of availability for fire. This allows user to have a clear understanding of where the band will be playing and where they will be available.
+The gig hire page will have a contact form and will contain a list of scheduled gigs and dates of availability for fhre. This allows user to have a clear understanding of where the band will be playing and where they will be available for gigs.
 
 
 With this in mind, I plan on using external links to Scorpions Spotify and iTunes music playist. This is to provide fans with secondary options of ways to listen to their music. 
@@ -120,6 +118,18 @@ This system for a photo collection is used on many bands websites such as metall
 For further information of the technology of the lightbox please view the Technologies Used section below.
 
 I also used the same color schemes from the Music Page to keep the website as consistant as possible, however the main-section (grey background is alot wider than on the Music Page. This was to keep as many of the images as possible in view.)
+
+#### Hire Page
+
+The hire page will be used to promote the available tour dates and will contain a simple 
+Bootstrap contact form, which asks to display the users email, full name, and a message containing 
+the date and location of an event and any other information that is relevent.
+
+Above the form, I add a brief paragraph about the upcoming tour. 
+I will also have a two columns that turn into side bars on wider screens. The fist column will be a list of available dates for booking gigs, 
+simular in design to the tour dates list on the home page, but will have a different colour background. 
+The second column will be a the same Tour Dates list from the homepage. The simularities in date listing is to keep the design as simple and less complex, 
+and will maintain user experience consistency.
 
 ### Features Left to implement
 

@@ -61,7 +61,7 @@ header, footer {
 .home-page {
     background-color: #404040;
 }
-.music-page, .photos-page {
+.music-page, .photos-page, .hire-page {
      background-color: #ad2d2d;
 }
 .main-section {
@@ -81,6 +81,9 @@ header, footer {
 
 .tour-dates-list, .tour-dates-list .list-group .list-group-item {
     background-color: #F5E44C;
+}
+.available-dates-list, .available-dates-list .list-group .list-group-item {
+    background-color: #87D37C;
 }
 
 /*-------------------------------------heading*/
@@ -277,11 +280,11 @@ footer h5 {
     max-width: 294px;
 }
 
-/*-----------------------------tour date list*/
+/*tour date list and available dates list (home and hire pages)*/
 
-.tour-dates-list {
-    height: 100%;
+.tour-dates-list, .available-dates-list {
     color: #680000;
+    height: 100%;
 }
 
 .list-group-item {
@@ -462,6 +465,19 @@ orginally from W3 Schools
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*-----------------------------------------------Hire Page*/
+
+.hire-page .main-section {
+    padding: 15px 0;
+}
+
+.contact-form {
+    margin: 10px 0 15px;
+}
+.first-form-group {
+    margin-top: 10px;
 }
 
 /*----------------------------media queries*/
