@@ -17,9 +17,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 150px;
-    transition: all .5 ease-in-out;
+   /* transition: all .5 ease-in-out;
     -moz-transition: all .5 ease-in-out;
-    -webkit-transition: all .5 ease-in-out;
+    -webkit-transition: all .5 ease-in-out;*/
 }
 
 .band-main-heading {
@@ -53,6 +53,9 @@ header, footer {
 }
 .menuitem {
     background-color: #ad2d2d;
+     transition: background-color .5s;
+    -webkit-transition:background-color .5s; /* Safari */
+    -moz-transition: background-color .5s;
 }
 .menuitem:hover {
     background-color: #F5E44C;
