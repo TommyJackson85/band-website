@@ -132,13 +132,9 @@ header {
 }
 
 .music-links a i {
-     color: #ad2d2d;
     font-size: 35px;
     padding: 20px 15px 0 15px;
     float: right;
-}
-.music-links a i:hover {
-    color: #F5E44C;
 }
 
 /*--------------------------------------footer*/
@@ -159,38 +155,25 @@ footer h5 {
 }
 
 .social-media-links li a i {
-    color: #ad2d2d;
     font-size: 30px;
     padding: 5px;
 }
 
-.social-media-links li a i:hover {
+
+/*-----------------------------------External links (home page, music page, header and footer)*/
+/*.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.2);
+    height: 40px;
+}*/
+
+.music-links a i, .social-media-links li a i, .album-details a i {
+    color: #ad2d2d;
+}
+.music-links a i:hover, .social-media-links li a i:hover, .album-details a i:hover {
     color: #F5E44C;
 }
 
-/*-----------------------------------Hover css*/
-
-.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0,0.2);
-    height: 40px;
-}
-
-/*----------------------------------------span*/
-
-.pull-left {
-    float: left;
-}
-
-.pull-right {
-    float: right;
-}
-
-.block {
-    display: block; /* since, div, I don't need this right ?*/
-    width: 100%;
-}
-
-/*-----------------------------------home page( main-section )*/
+/*-----------------------------------------------------home page*/
 /*used to display an intro duction to the band and a promo video*/
 
 .main-section{
