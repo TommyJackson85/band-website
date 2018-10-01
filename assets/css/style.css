@@ -71,12 +71,12 @@ section, .music-page, .photos-page, .hire-page {
     background-color: #404040;
 }
 /*image page*/
-.modal-content {
+.modal-content, .mySlides {
     background-color: black;
 }
-.mySlides{
+/*.mySlides{
     background-color: #ad2d2d;
-}
+}*/
 
 .song-sample-list {
     background-color: #ad2d2d;
@@ -215,24 +215,29 @@ footer h5 {
     padding: 20px 10px 25px 10px;
 }
 
+.track {
+    color: #7ed6df;
+}
+
 .song-sample-list h3 {
     padding: 0 0 0 30px;
     margin-top: 0;
 }
 
-.track {
-    width: 290px;
-    margin-left: 5%;
+.song-sample-list .track {
+    max-width: 290px;
+    margin: 0 auto;
 }
 
-.track h4 {
+.song-sample-list .track h4 {
     margin-left: 5px;
 }
 
-.controls {
+.song-sample-list .track .controls {
     width:100%;
 }
-    /*----music page*/
+
+/*-------------------music page*/
 .music-page, .music-page .main-section {
     padding: 0;
 }
@@ -242,9 +247,22 @@ footer h5 {
 
 .album {
     padding: 10px 0px;
-    display: block;
-    height: auto;
+   /* display: block;
+    height: auto;*/
     border-bottom: solid 1px  #191919;
+}
+
+.album-tracks h5 {
+    color: #7ed6df;
+}
+
+.album-tracks h5, .album-tracks .track {
+    max-width: 290px;
+    margin: 5px auto;
+}
+
+.album-tracks .track .controls {
+    width: 100%;
 }
 
 .album-details {
@@ -267,9 +285,6 @@ footer h5 {
     padding: 0px 0px 0px 20px;
 }
 
-.album-tracks .controls {
-    max-width: 294px;
-}
 
 /*tour date list and available dates list (home and hire pages)*/
 
@@ -486,7 +501,7 @@ orginally from W3 Schools
     
     .track {
         width: 300px;
-        margin-left: 10%;
+        /*margin-left: 10%;*/
     }
     
     .video, .video iframe {
@@ -514,7 +529,7 @@ orginally from W3 Schools
     
     /*music page*/
     .album {
-        padding-left: 15px;
+        padding: 15px 0;
     }
    .album-details img {
         width: 140px;
@@ -527,7 +542,7 @@ orginally from W3 Schools
         font-size: 42px;
     }
     .album-tracks{
-        padding-left: 5%;
+        margin: 0 auto;
     }
     .album-tracks .controls {
         max-width: 320px;
@@ -557,9 +572,9 @@ orginally from W3 Schools
         float: right;
     }
     
-    .track {
-        width: 300px;
-        margin-left: 15%;
+    .song-sample-list .track {
+        width: 100%;
+      /*  margin-left: 15%;*/
     }
     
     .video, .video iframe {
@@ -589,9 +604,9 @@ orginally from W3 Schools
     .album-details h5 {
         font-size: 2rem;
     }
-    .album-tracks {
+   /* .album-tracks {
         padding-left: 15%;
-    }
+    }*/
     
     /*photo page*/
         .photo-preview img {
@@ -629,11 +644,11 @@ orginally from W3 Schools
         padding: 15px 6% 5px 6%;
     }
 
-    .track {
+    /*.track {
         width:100%;
-        max-width: 300px;
+        max-width: 290px;
         margin: 0 auto;
-    }
+    }*/
     
     .music-links a i {
         font-size: 50px;
@@ -677,11 +692,11 @@ orginally from W3 Schools
         padding-top: 5px;
         font-size: 1.5rem;
     }
-    
+    /*
     .album-tracks {
         padding-top: 7px;
         padding-left: 15px;
-    }
+    }*/
     
     /*photo page*/
     
