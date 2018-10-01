@@ -64,7 +64,7 @@ header, footer {
 .home-page {
     background-color: #404040;
 }
-.music-page, .photos-page, .hire-page {
+section, .music-page, .photos-page, .hire-page {
      background-color: #ad2d2d;
 }
 .main-section {
@@ -135,7 +135,7 @@ header {
     font-size: 35px;
     padding: 20px 15px 0 15px;
     float: right;
-}
+} 
 
 /*--------------------------------------footer*/
 
@@ -236,9 +236,14 @@ footer h5 {
 .music-page, .music-page .main-section {
     padding: 0;
 }
+.music-page {
+    margin: 0 0;
+}
 
 .album {
-    padding: 10px 5px;
+    padding: 10px 0px;
+    display: block;
+    height: auto;
     border-bottom: solid 1px  #191919;
 }
 
@@ -579,7 +584,7 @@ orginally from W3 Schools
         padding: 5px;
     }
     .album-details {
-        margin-left: 5%;
+        margin-left: 0;
     }
     .album-details h5 {
         font-size: 2rem;
