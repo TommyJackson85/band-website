@@ -33,8 +33,8 @@ body {
 }
 
 .footer-logo {
-    height: 70px;
-    margin-top: 30px;
+    height: 65px;
+    margin-top: 0;
     margin-left: 0;
 }
 
@@ -149,9 +149,14 @@ footer h5 {
 } 
 
 .footer-logo-div {
-    padding-top: 24px;
+    padding-top: 5px;
     padding-left: 0;
     margin-left: 0;
+}
+
+.social-media-links {
+    margin-top: 20px;
+    padding-left: 15px;
 }
 
 .social-media-links li a i {
@@ -518,13 +523,15 @@ orginally from W3 Schools
     
     .footer-logo {
         height: 80px;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 0;
     }
-    
+    .social-media-links {
+        padding-left: 30px;
+    }
     .social-media-links li a i {
-        font-size: 32px;
-        padding: 5px;
+        font-size: 37px;
+        padding: 6px;
     }
     
     /*music page*/
@@ -594,10 +601,10 @@ orginally from W3 Schools
         padding-top: 25px;
     }
     
-    .social-media-links li a i {
+    /*.social-media-links li a i {
         font-size: 32px;
         padding: 5px;
-    }
+    }*/
     .album-details {
         margin-left: 0;
     }
@@ -657,7 +664,7 @@ orginally from W3 Schools
     }
   
     .footer-logo-div {
-        padding-top: 19px;
+        padding-top: 0;
         padding-left: 0;
         margin-left: 0;
     }
@@ -665,16 +672,17 @@ orginally from W3 Schools
     .footer-logo {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
-        height: 90px;
+        height: 107px;
     }
     
-    .social-media-heading {
-        padding-top: 0;
-    }
+    /*.social-media-heading {
+        margin-top: 23px;
+    }*/
     
-    .social-media-links li a i {
-        font-size: 30px;
-        padding: 5px;
+   .social-media-links li a i {
+        font-size: 38px;
+        padding: 10px;
+        margin-top: 5px;
     }
     /*---music page*/
     
