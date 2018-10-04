@@ -92,7 +92,7 @@ The first Album will be latest album and will contain the two tracks from the ho
 This is to help fans find the new tracks more easily. The other two albums will two of their classic albums from the 80's.
 
 I will provide spotify and iTunes links on each album. Each will link the user to the full albums that are ready to be purchased or played.
-I will used the same colour schemes from and design patterns from the home page to provide consitency for the users.
+I will use the same colour schemes from and design patterns from the home page to provide consitency for the users.
 
 I took inspiration from other bands Discography pages on their website, particularly on how they display the album cover picture and details
 Metallica's and Iron Maiden's website were once again an inspiration in terms of design.
@@ -130,6 +130,67 @@ I will also have a two columns that turn into side bars on wider screens. The fi
 simular in design to the tour dates list on the home page, but will have a different colour background. 
 The second column will be a the same Tour Dates list from the homepage. The simularities in date listing is to keep the design as simple and less complex, 
 and will maintain user experience consistency.
+
+#### Color schemes (of all pages)
+
+I first used the background color of the footer image as the backgound color for the footer.
+The main purpose for this was to blend the image background to the footer background. 
+I then reused this color for the header background to keep the website consistant in tone.
+
+I only use black as the background color of the footer and header to keep them distinguished from the main site. The only other use I used black was for the pop of lightbox in the photo section. 
+This was because it didn't use the header or footer. 
+It had an 'x' button on the top corner to allow the user to escape the box.
+
+On the basis of using the color black, I decided to use mostly darker colours to keep it consistant in tone.
+
+I used a dark color red for the page links to keep them differentiated from the header background. 
+For the page link button that links to the page in use, I used a lighter red background. 
+This is to give an indication to the user where they are on the site.
+
+I used the same darker red for each page background (on larger screens) and for the side bar of the home page. 
+This is to make the color schemes as consistant as possible.
+For the main section (under the class 'main-section') of each page, I used a dark grey for the background color. 
+The use of a dark gray keeps it separate from the header and footer. 
+However the use of black and dark grey blend well together in tone. 
+Further more, use of black, dark grey and dark colors are well suited for a metal band / heavy rock band website. 
+All three colours are the most consistently used background colour schemes of the whole website, although sometimes in darker or brighter tones.
+
+I used dark yellow and dark green as secondary background colours. 
+I used dark yellow for the tour dates list (on both the home page and hire us page) 
+and the dark green for the 'dates available for booking'.
+This distinguishes it as secondary reading material, 
+although the use of yellow and green are positive colors, which demonstrates an importance to the content.
+
+For most text colour, I used the colour white. 
+This is to make it read-able for the users on the dark background colours, and to keep the text consistant with the color of the header and footer logo color's.
+The use of 'plain' white is suitable for static content.
+
+In contrast, I used a bright turquoise green colour for the track headings of audio files (on both the home and music pages.). 
+This adds importance to the text because it's associated with the interactive parts of the website.
+
+Simularily, I made all the external links and bright blue. 
+This is because they are separate links to the website and I wanted them to be more distinguished from the page links dark red colouring.
+
+I used the same color for the form submision button's background color (from the hire page) to keep it distinguished.
+
+For all links and the form submission button, I made each turn bright yellow when hovered over. 
+The use of yellow keeps it consistant with tour date list background color aswell. 
+However, being a brighter yellow keeps associated with interactive content.
+
+The text color of the tour date list and available dates list is also dark red. 
+I used a dark red color to make the lists readable over the brighter green and yellow background colors. 
+The dark red color keeps the website consistant the other uses of dark red.
+
+I set the copywrite text to a dark grey because it is the least important part of the website for the user.
+However it is a bright enough color to keep it readable.
+
+Overall, I used dark version of colors to keep a more relaxed UX experience. 
+However the sparse use of brighter versions of colors helped distinguish the interactive parts of the site from the static parts.
+For example, the tour dates lists and 'dates available for booking' list, all used shaded versions of colors because it is very static content. 
+The links and track headings, on the other hand, both used birght colors to distinguish the content as interactive and/or external to the website.
+
+I used the following link, which helped provide suitable colour schemes:
+http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF
 
 ### Features Left to implement
 

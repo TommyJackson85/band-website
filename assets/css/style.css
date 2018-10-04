@@ -52,23 +52,32 @@ header, footer {
     padding-right: 0;
 }
 .menuitem {
-    background-color: #ad2d2d;
+    background-color: #882C22; /*#ad2d2d;*/
      transition: background-color .5s;
     -webkit-transition:background-color .5s; /* Safari */
     -moz-transition: background-color .5s;
 }
 .menuitem:hover {
-    background-color: #F5E44C;
+    background-color: #FFDE00;
+}
+.current-page {
+    background-color: #AB4B41;
+}
+.message-button {
+    background-color: #008BFF;
+}
+.message-button:hover {
+    background-color: #FFDE00;
 }
 
 .home-page {
     background-color: #404040;
 }
 section, .music-page, .photos-page, .hire-page {
-     background-color: #ad2d2d;
+     background-color: #882C22; /* #ad2d2d;*/
 }
 .main-section {
-    background-color: #404040;
+    background-color: #3F3F3F; /*#404040;*/
 }
 /*image page*/
 .modal-content, .mySlides {
@@ -79,14 +88,27 @@ section, .music-page, .photos-page, .hire-page {
 }*/
 
 .song-sample-list {
-    background-color: #ad2d2d;
+    background-color: #882C22;
 }
 
 .tour-dates-list, .tour-dates-list .list-group .list-group-item {
-    background-color: #F5E44C;
+    background-color: #E7B340;
 }
 .available-dates-list, .available-dates-list .list-group .list-group-item {
-    background-color: #87D37C;
+    background-color: #2DA267;
+}
+
+/*-----------------------------------External link colors (home page, music page, header and footer)*/
+/*.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.2);
+    height: 40px;
+}*/
+
+.music-links a i, .social-media-links li a i, .album-details a i {
+    color: #008BFF; /*#ad2d2d;*/
+}
+.music-links a i:hover, .social-media-links li a i:hover, .album-details a i:hover {
+    color: #FFDE00;/*#FFD100;*/
 }
 
 /*-------------------------------------heading*/
@@ -144,7 +166,7 @@ footer {
 }
 footer h5 {
    /* font-size: 30px;*/
-    color: #bdc3c7;
+    color:  #7C7C7C; /*#bdc3c7;*/
     padding: 5px 0 5px 5px;
 } 
 
@@ -162,20 +184,6 @@ footer h5 {
 .social-media-links li a i {
     font-size: 30px;
     padding: 5px;
-}
-
-
-/*-----------------------------------External links (home page, music page, header and footer)*/
-/*.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0,0.2);
-    height: 40px;
-}*/
-
-.music-links a i, .social-media-links li a i, .album-details a i {
-    color: #ad2d2d;
-}
-.music-links a i:hover, .social-media-links li a i:hover, .album-details a i:hover {
-    color: #F5E44C;
 }
 
 /*-----------------------------------------------------home page*/
@@ -213,7 +221,7 @@ footer h5 {
 /*---------------------------------Music (for Home Page and Music Page )*/
     /*---home page*/
 .song-sample-list {
-    color: #F5E44C;
+    color: #ffffff; /*header of column*/
     height: 100%;
     /*background-color: green;*/
     margin-top: 0;
@@ -221,8 +229,9 @@ footer h5 {
 }
 
 .track {
-    color: #7ed6df;
+    color: #00E5BF;
 }
+
 
 .song-sample-list h3 {
     padding: 0 0 0 30px;
@@ -258,7 +267,7 @@ footer h5 {
 }
 
 .album-tracks h5 {
-    color: #7ed6df;
+    color: #00E5BF;
 }
 
 .album-tracks h5, .album-tracks .track {
@@ -285,7 +294,6 @@ footer h5 {
 }
 
 .album-details a i {
-    color: #ad2d2d;
     font-size: 35px;
     padding: 0px 0px 0px 20px;
 }
@@ -294,7 +302,7 @@ footer h5 {
 /*tour date list and available dates list (home and hire pages)*/
 
 .tour-dates-list, .available-dates-list {
-    color: #680000;
+    color: #5C2516;
     height: 100%;
 }
 
@@ -306,6 +314,12 @@ footer h5 {
 
 .last-item {
     border-bottom: 0;
+}
+
+/*--------------------------------message-form (hire page)-*/
+
+.message-button {
+    color: white;
 }
 
 /*-----------------------------photo page--*/
