@@ -261,8 +261,6 @@ footer h5 {
 
 .album {
     padding: 10px 0px;
-   /* display: block;
-    height: auto;*/
     border-bottom: solid 1px  #191919;
 }
 
@@ -279,21 +277,26 @@ footer h5 {
     width: 100%;
 }
 
-.album-details {
+.album-details .content {
+    width: 295px;
     margin: 0 auto;
-    padding: 0 auto;
+    display:block;
 }
 
-.album-details img {
-    margin-right: 5px;
+.album-details .content img {
+    margin: 0 auto;
     float: left;
 }
-.album-details h5, .album-details a i {
-    margin-top: 2px;
-    /*float: left;*/
+.album-details .content h5 {
+    margin-left: 3px;
+    display: inline-block; 
 }
 
-.album-details a i {
+.album-details .content h5, .album-details .content a i {
+    margin-top: 2px;
+}
+
+.album-details .content a i {
     font-size: 35px;
     padding: 0px 0px 0px 20px;
 }
@@ -552,28 +555,37 @@ orginally from W3 Schools
     .album {
         padding: 15px 0;
     }
-   .album-details img {
+    
+    .album-details .content {
+        width: 365px;
+    }
+    
+   .album-details .content img {
         width: 140px;
     }
     
-    .album-details h5 {
+    .album-details .content h5 {
         font-size: 1.7rem;
+           margin-left: 4px;
     }
-    .album-details a i {
+        
+    .album-details .content a i {
         font-size: 42px;
     }
-    .album-tracks{
+    /*.album-tracks{
         margin: 0 auto;
+    }*/
+    .album-tracks h5 {
+        font-size: 1.7rem;
     }
-    .album-tracks .controls {
+    /*.album-tracks .controls {
         max-width: 320px;
-    }
+    }*/
     /*photo page*/
     .prev,
     .next {
       top: 35%;
     }
-    
 } 
 
 @media (min-width: 504px) {
@@ -615,19 +627,6 @@ orginally from W3 Schools
         padding-top: 25px;
     }
     
-    /*.social-media-links li a i {
-        font-size: 32px;
-        padding: 5px;
-    }*/
-    .album-details {
-        margin-left: 0;
-    }
-    .album-details h5 {
-        font-size: 2rem;
-    }
-   /* .album-tracks {
-        padding-left: 15%;
-    }*/
     
     /*photo page*/
         .photo-preview img {
@@ -700,25 +699,23 @@ orginally from W3 Schools
     }
     /*---music page*/
     
+    .album-details .content {
+        width: 400px;
+        margin: 0 0;
+        margin-left: 10px;
+    }
+    
     .album-details {
         padding: 15px 10px 0;
-        margin-left: 0;
     }
     
-    .album-details img {
-        width: 180px;
-        margin-left: 15px;
+    .album-details .content img {
+        width: 170px;
     }
     
-    .album-details h5, .album-tracks h5 {
+    .album-details .content h5, .album-tracks h5 {
         padding-top: 5px;
-        font-size: 1.5rem;
     }
-    /*
-    .album-tracks {
-        padding-top: 7px;
-        padding-left: 15px;
-    }*/
     
     /*photo page*/
     
@@ -747,16 +744,10 @@ orginally from W3 Schools
     
     .album-details {
         padding: 15px 15px 0;
-        margin-left: 0;
     }
     
-    .album-details img {
-        width: 180px;
-    }
-    
-    .album-details h5 {
-        padding-top: 5px;
-        font-size: 1.5rem;
+    .album-details .content img {
+        width: 175px;
     }
     
     .album-tracks {
