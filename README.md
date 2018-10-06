@@ -104,18 +104,32 @@ For the photos page I utilized a lightbox system.
 Upon opening the Photos page, there is a collection of photos available for the user to see. The user can't see the image at its full capacity, but all the images are matching at the same width and height, without being stretched. 
 They are also evenly alligned at different screen lengths. The images are small enough for the user to get a full grasp of all the images on their first glance.
 
-Upon clicking an image of their choosing, a lightbox pops up. In which displays the image as big as possible. The individual images are large enough for the user to grasp them. 
+Upon clicking an image of their choosing, a lightbox pops up. 
+The light box displays the image fully from the top. 
+It displays each image as large as possible, 
+without the user having to schroll up and down to see 
+all of the whole image. 
+The image size increases in size on on larger screens.
+The image caption is displayed right below the enlarged image.
 
-Below the enlarged image on the lightbox, the user can see the same collection of images from initally opening the photos page. 
+Below the enlarged image, 
+the user can see the same collection of images from initally opening the photos page. 
 This is to allow the user to search through the images without closing the lightbox. 
-I also utilised next and previous buttons for the user to schroll though all the pictures. 
-The two buttons are in a fixed position so they wont move when clicking through, this is important because the lightbox changes its size depending on the image. 
-Keeping them in place provides a better user experience. 
-There is also an x button on the top incase the user wants to go back to the main page, where they can navigate the website again.
+I also utilised next and previous buttons for the user to schroll though all the pictures.
 
-This system for a photo collection is used on many bands websites such as metallicas. 
+The enlarged image and image caption as placed in a parent div, in which has the exact same height for all selected image. 
+This was important because all the images vary in dimensions and sizes. 
+The constant changes of image sizes/dimensions (from clicking the next and previous buttons, and clicking other images)
+doesn't move the remaining page content around because the the enlarged image's parent div remains the same in size.
 
-For further information of the technology of the lightbox please view the Technologies Used section below.
+This makes for a good user experience.
+
+There is also an x button on the top incase the user wants to go back to the main page, where they can navigate through the website again.
+
+I chose to use the lightbox system because it is commonly used on many websites. 
+It is also used on bands websites such as metallica's. 
+
+For further information on the technology of the lightbox please view the Technologies Used section below.
 
 I also used the same color schemes from the Music Page to keep the website as consistant as possible, however the main-section (grey background is alot wider than on the Music Page. This was to keep as many of the images as possible in view.)
 
@@ -221,7 +235,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
     -
     - Code for lightbox, from w3schools ( link: https://www.w3schools.com/howto/howto_js_lightbox.asp ; ).
       Upon utilizing this code, I removed the column class and column css styling, and used bootstrap column grid system instead. 
-      This was to keep the website consistant with its use of Bootstrap. I also made several changed to the styling ( see the Existing Features about). 
+      This was to keep the website consistant with its use of Bootstrap. I also made several changed to the styling ( see the Existing Features above).
+      W3Schools code uses images of the same size and dimensions and because my images were more varied, I had to alter both the HTML and CSS code.
   
 ### Photo's and Lightbox
 

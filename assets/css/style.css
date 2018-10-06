@@ -390,16 +390,20 @@ orginally from W3 Schools
 }
 .mySlides {
     width: auto;
-    height: auto;
     /*background-color: blue;*/
     position: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
+.selected-slide {
+    height: 340px;
+}
+
 .mySlides img {
   max-width:100%; 
-  max-height: 700px
+  max-height: 300px;
 } 
 
 /* The Close Button */
@@ -431,8 +435,8 @@ orginally from W3 Schools
 .prev,
 .next {
   cursor: pointer;
-  position: fixed;
-  top: 30%;
+  position: absolute;
+  top: 12%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -448,7 +452,6 @@ orginally from W3 Schools
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  padding-right: 30px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -582,9 +585,18 @@ orginally from W3 Schools
         max-width: 320px;
     }*/
     /*photo page*/
+    
+    .mySlides img {
+      max-height: 400px;
+    } 
+    
+    .selected-slide {
+        height: 440px;
+    }
+    
     .prev,
     .next {
-      top: 35%;
+      top: 13%;
     }
 } 
 
@@ -632,9 +644,18 @@ orginally from W3 Schools
         .photo-preview img {
         height: 150px;
     }
+    
+    .selected-slide {
+        height: 540px;
+    }
+    
+    .mySlides img {
+      max-height: 500px;
+    } 
+    
     .prev,
     .next {
-      top: 40%;
+        top: 14%;
     }
 } 
 
@@ -722,9 +743,10 @@ orginally from W3 Schools
     .photo-preview img {
         height: 150px;
     }
+    
     .prev,
     .next {
-      top: 50%;
+        top: 22%;
     }
 }
 
