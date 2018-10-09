@@ -1,31 +1,33 @@
 # Band-Website
 
-One or two paragraphs providing an overview of your project.
+This website is for fans and new fans of the band Scorpions. 
+It will be designed to engage fans into listening to the bands music and potentially purchase the bands music on their iTunes and spotify accounts.
+Fans will also be allowed view the band photos, check their tour schedule and be able to contact them in order to organise gigs.
 
-Essentially, this part is your sales pitch.
- 
+The website will allow fans to find most information and content on the Scorpions. 
+The initially home page will be used to promote the bands music and tour schedule but will also have a brief description of the band to engage new fans. 
+There will then be individual pages, for the bands content and other uses. There will be a photos page for their photo collection, a music page for their music catalogue and a hire page to allow the user to contact the band for hire.
+The website will also be used to promote their social media pages, through the use of external links.
+There will be links to the bands iTunes and Spotify accounts on the header of each page, and Facebook, Twitter, Instagram and YouTube links in the footer of each page.
+The website will initially have four pages. 
+It will have a home page which will contain promotions and a brief description of the band.
+The promotions will include a tour promotional video, tour dates and sample songs from their latest album. 
+There will also be a music page containing songs from three of their albums, a photo page containing multiple photos to view in full, and a hire page where the user can contact the band directly to hire them for gigs
+
+
 ## UX
- 
-!!!Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-This website is for fans and new fans of the band Scorpions, who want to listen to their music, view band photos, check their tour schedule and to able to contact them in order to organise gigs.
 
 As a user, I want to use the webstie to
 
-(a) listen to the bands music and watch their videos (should include atleast one video clip),
-
-(b) find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, iTunes, Spotify).
-
-(c) look at photos of the bands tour, idividual band member profile and other promo photos.
-
-(d) see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
+- listen to the bands music and watch videos (should include atleast one video clip),
+- find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
+- look at photos of the band on tour and of each idividual band member.
+- see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
 
 Wireframes, mockups, diagrams
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+I used the Iron Maiden website (https://ironmaiden.com/)
+and Metallica's website (https://www.metallica.com/)
+for design and content inspiration, however I kept the design as possible for this website.
 
 ## Features
 
@@ -33,29 +35,47 @@ In this section, you should go over the different parts of your project, and des
 
 The website will have four separate pages, (1) a home page, (2) a music page, (3) a photo page and (4) a gig hire page. Each page will have the same header and footer sections for consitency.
 
-The home page will display a video, one or two examples of their music, a brief description of the band, including a list of band members and a list of tour dates. This will give a solid introduction to the band for new fans and allows them to try their music.
+- The home page will display a promotional video, one or two examples of their music, a brief description of the band, including a list of band members and a list of tour dates. This will give a solid introduction to the band for new fans and allows them to try their music.
 
-The music page will contain more of the bands music. However it will not be used to display all of their music as external links to Spotify and iTunes will be provided.  
+- The music page will contain more samples of the of the bands music. 
 
-The photos page will contain a vast variety of the band members and pictures of their tours.
+- The photos page will contain a vast variety of photos of their previous tours.
 
-The gig hire page will have a contact form and will contain a list of scheduled gigs and dates of availability for fhre. This allows user to have a clear understanding of where the band will be playing and where they will be available for gigs.
+- The gig hire page will have a contact form and will contain a list of scheduled gigs and dates of availability for hire. This allows user to have a clear understanding of where the band will be playing and where they will be available for gigs.
 
-
-With this in mind, I plan on using external links to Scorpions Spotify and iTunes music playist. This is to provide fans with secondary options of ways to listen to their music. 
-
-The home page will also feature 2 of their new tracks as a preview for their music cataloge. This will be good for attracting new fans. The home page will also include a music video of one their most famous tracks, as another preview of their music cathologe, followed by a link to their YouTube channel. After demonstated
  
 ### Existing Features
 
 #### Header and Footer
+I used the code from for the header and footer sections of the resume project as a starting point to work from.
 
-The header will have links to each page to allow for consistant easy access for users and so they dont have to keep navigating around the website to find the correct page. It will also contain the bands logo and a photo of the whole band. This gives new fans an idea to what kind of band the Scorpions are.
+I kept the same structure of the resume project header but I added an image of the band's logo/name and two external inks for the bands Spotify and iTunes accounts.
+Having external link to the bands music on the header is important because this website is primarily used to promote the bands music.
 
-As this website will be primarily be used for users to listen to the bands music, I will contain links to the band's Spotify and iTunes accounts on both the header and footer. This is important because it will allow the user to have consistant access to their full music library, from each page. Having consistant links to Spotify and iTunes is also important for the band because the band makes money from these sites.
+The header has links to each page of website to allow for consistant easy access for users. 
+On each page, the header indicates to the user which page they are on, 
+by having the related page link button have a lighter background color. 
+All of this is so the user won't be lost when navigating around the website.
 
-The footer will include a small logo, copywrite text aswell as a list of all their social media pages. Most of the social media links will be kept on the footer only because they are of secondary importance, however being kept at the footer will allow the user to have consistent access to them. Links to Facebook and Twitter will be included in the list, along with Spotify and iTunes.
+Alot of bands have diffent size headers. Some are big mast heads while others are slimmer and just contain the needed functionality and display.
+I decided to make the header medium sized
 
+There is a photo of the whole band on the header, on smaller screens it is on the top and on larger screens it is too the left.  
+This image gives new fans an idea of what kind of band the Scorpions are.
+
+I made the page links small/slim with extra margin space at the bottom, so that black background can be partially seen at the bottom. 
+This is so the the links feel they are part of the header and not just attched under the bottom.
+
+I also kept most of the structure of the footer (from the resume project) in place.
+The footer includes a small logo, copywrite text and a list of all their social media pages. 
+
+Most of the social media links will be kept on the footer only because they are of secondary importance (i.e. Facebook, Twitter, Instagram and Youtube). 
+Having iTunes and Spotify in the header makes more sense because they are of more importance. They are essential for the bands buisness.
+
+In general, having external links on the footer and header will allow the user to have consistent access to them.
+
+In the future, I might add more pages to the website, which means I will add more page links to the footer.
+With this in mind. I might have to remove the band image from the header to allow more space
 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -66,36 +86,57 @@ In addition, you may also use this section to discuss plans for additional featu
 
 #### Home Page
 
-The home page page will consist of three sections: (a) A promotion of two songs from their latest (b) a list of tour dates, 
-and the (c) main section which is largest part of the page and will have varied content.
+The home page page will consist of three columns: 
+- (a) A promotion of two songs from their latest album
+- (b) A list of tour dates 
+- (c) A main section (class-"main-section") which is largest part of the page and will have varied content.
 
-The top of the main section will have a video promotion to promote the bands tour. This is so fans are immediately of the tour.
-Below the video will be a very description of the band and the website, this is primarily for new potential fans to take interest.
+(a) and (b) will be stacked on top of each other. 
+On small screens they will be below the main section but on larger screens they will be pushed to the right
+like they are a side bar.
+
+The top of the main section will have a video promotion to promote the band's tour. This is so fans are immediately aware of the tour.
+Below the video will be a very description of the band and the website, this is for new potential fans to be introduced to the band.
 Then below the description will be a list of the band members in the band, which is also for new potential fans.
 
-The new songs promotion and tour dates list will be stacked ontop of each other to the right to create a side bar. All three sections will have different background colours to make the impression that they are different.
+The new songs promotion and tour dates list will be stacked on top pf each other. 
+All three sections will have different background colours to keep them separate.
 
-I am trying to make the home page to be as random as possible, 
+I am trying to make the home page as random as possible, 
 while also providing as much previews and important fan content. 
 I got the inspirations from other band websites, such as Metallicas and Iron Maidens, 
-which both also has a 'random content' feel.
+which both also had a 'random content' feel.
 
 For the tour guide list, I used Metallica's tour guide list as a guide on text sizes and designs.
 
+##### Future changes
+I may add other content, such as fan art and music videos the home page. I will either put it on the main section or in the form of another side bar column. 
+I got the idea of Fan Art from the Iron Maiden website. I feel it adds a sense of 'personal aknowledgement' of the fans.
+With this new material in mind, I may consider adding links to new pages, specifically for each set of content. I will either add the links to the header or on the home page. 
+
+In general, I think the home page should have as much interactive content as possible. 
+With this in mind, I may consider removing the band description section and move it to a new page that talks about the band and it's history. 
+I will add a link to this page in the header.
+
 #### Music Page
 
-I will use this page to display all the sample songs I intend have available. There will be three albums on display, with two tracks chosen from each album.
+I am using this page to display all the sample songs I intend to have available. 
+There will be three albums on display with a picture of the album cover, the album heading and year release and external links to the albums Spotify and iTunes accounts. 
 
-For the track controls, I used simular design and the same sizes of the track controls and track headings.
+Underneat each album display on small screens, I displayed two listenable tracks chosen from the album. On larger screens I pushed the tracks to the right, aligning them next to the album display to the right.
+For the track listings I reused most of the the code and styling from the music section the of the home page, keeping it consistant.
 
-The first Album will be latest album and will contain the two tracks from the home page. 
-This is to help fans find the new tracks more easily. The other two albums will two of their classic albums from the 80's.
+The first Album on display will be latest album and will contain the two tracks from the home page. 
+The other two albums will be two of their classic albums from the 80's.
 
-I will provide spotify and iTunes links on each album. Each will link the user to the full albums that are ready to be purchased or played.
-I will use the same colour schemes from and design patterns from the home page to provide consitency for the users.
+I took inspiration from other bands Discography pages on their website, particularly on how they display the album cover picture and details.
 
-I took inspiration from other bands Discography pages on their website, particularly on how they display the album cover picture and details
-Metallica's and Iron Maiden's website were once again an inspiration in terms of design.
+##### Future changes
+I will consider making all of their albums on for display, in which the initial music page will just display all the album cover images, aligned next to each other. Each link will link to a new page, that displays the albums full track listings and full production credits. From here the user will be able to read each song's lyrics. 
+I may also add more sample tracks for each album, however I will still have links to the album's Spotify and iTunes accounts.
+This building process will require ae a more complex UI wireframe, so I will add links to each albums page that will give the user the option to return to the full album listing and home page. I may also inlude the same header or footer for consistency.
+
+Many band websites used this type of wireframe, for example: https://ironmaiden.com/discography/studio-albums
 
 #### Photos Page
 
@@ -117,56 +158,76 @@ the user can see the same collection of images from initally opening the photos 
 This is to allow the user to search through the images without closing the lightbox. 
 I also utilised next and previous buttons for the user to schroll though all the pictures.
 
-The enlarged image and image caption as placed in a parent div, in which has the exact same height for all selected image. 
-This was important because all the images vary in dimensions and sizes. 
-The constant changes of image sizes/dimensions (from clicking the next and previous buttons, and clicking other images)
-doesn't move the remaining page content around because the the enlarged image's parent div remains the same in size.
+The enlarged image and image caption are both placed in a parent div. The parent div has the exact same height for all selected images. 
+This was important because all the images vary in dimensions and sizes. The constant changes of image sizes/dimensions (from clicking the next and previous buttons, and clicking other images)
+doesn't move the remaining page content around (i.e. outside the parent div) because the the enlarged image's parent div remains the same in size.
 
-This makes for a good user experience.
+This makes for a good user experience and does not cause confusion.
 
 There is also an x button on the top incase the user wants to go back to the main page, where they can navigate through the website again.
 
-I chose to use the lightbox system because it is commonly used on many websites. 
-It is also used on bands websites such as metallica's. 
+I chose to use the lightbox system because it is commonly used on many websites, 
+for example: https://ironmaiden.com/gallery
+
 
 For further information on the technology of the lightbox please view the Technologies Used section below.
 
-I also used the same color schemes from the Music Page to keep the website as consistant as possible, however the main-section (grey background is alot wider than on the Music Page. This was to keep as many of the images as possible in view.)
+I also used the same color schemes from the Music Page to keep the website as consistant as possible, however the main-section (grey background is alot wider than on the Music Page. 
+This was to keep as many of the images as possible in view.)
+
+##### Future changes
+ 
+I may only make small changes to the design and add more photos. 
+
+However I may also  remove the photo-previews from the lightbox box. 
+I think it might be better for the light box to only have the enlarged photo because there is already a photo preview at the start of the music page. 
+Including a photo preview in the bottom of the modal is making the user have to scroll to the bottom all the time. 
+When the user scrolls to the bottom, the 'X' buttom (at the top of the modal) is hidden. T
+his might be causing a negative user experience, however I still feel it is also helpful for the user to be able to choose specific images from the modal.
 
 #### Hire Page
 
 The hire page will be used to promote the available tour dates and will contain a simple 
-Bootstrap contact form, which asks to display the users email, full name, and a message containing 
-the date and location of an event and any other information that is relevent.
+Bootstrap contact form, which requires the users email, first and last names, and a message.
 
-Above the form, I add a brief paragraph about the upcoming tour. 
-I will also have a two columns that turn into side bars on wider screens. The fist column will be a list of available dates for booking gigs, 
+Above the form I ask the user to include information on the date and location of an event and any other information that is relevent.
+
+I also remind the user about the up and coming tour and suggest the user refers to the available dates list when booking.
+
+I will have two columns that turn into an inner side bar on wider screens (the side bar is located inside the 'main-section class div' for this page). The fist column will be a list of available dates for booking gigs, 
 simular in design to the tour dates list on the home page, but will have a different colour background. 
-The second column will be a the same Tour Dates list from the homepage. The simularities in date listing is to keep the design as simple and less complex, 
-and will maintain user experience consistency.
+The second column will be a the same Tour Dates list from the homepage. Both columns use the same design patterns as the tour dates list on the home page.
+
+I added a tour dates list to this page because I felt it was related to subject of band hiring. 
+It is helpful for the user to be aware of the booked tour dates and booked locations.
+
+##### Future changes
+
+I might add more form inputs to the form and I might change the design of the tour and dates for hire listings.
 
 #### Color schemes (of all pages)
 
 I first used the background color of the footer image as the backgound color for the footer.
 The main purpose for this was to blend the image background to the footer background. 
-I then reused this color for the header background to keep the website consistant in tone.
+I then reused this color for the header background to keep the website consistant in color tone.
 
-I only use black as the background color of the footer and header to keep them distinguished from the main site. The only other use I used black was for the pop of lightbox in the photo section. 
-This was because it didn't use the header or footer. 
-It had an 'x' button on the top corner to allow the user to escape the box.
+I only use black as the background color of the footer and header to keep them distinguished from other parts of the website. The only other use of black was for the background of the lightbox in the photo section. 
+This was because it didn't use the header or footer. .
 
-On the basis of using the color black, I decided to use mostly darker colours to keep it consistant in tone.
+On the basis of using the color black, I decided to use mostly darker colours for other parts of the website to keep it consistant in tone.
 
 I used a dark color red for the page links to keep them differentiated from the header background. 
 For the page link button that links to the page in use, I used a lighter red background. 
 This is to give an indication to the user where they are on the site.
 
-I used the same darker red for each page background (on larger screens) and for the side bar of the home page. 
-This is to make the color schemes as consistant as possible.
+I used the same darker red for each page background (on larger screens) except for the Home page. 
+The 'main-section' class div on the home page doesn't have any right or left margins on small or large screens, so the background is not visable anyway.
+However I did use the darker red for the music column on the home page.
+
 For the main section (under the class 'main-section') of each page, I used a dark grey for the background color. 
 The use of a dark gray keeps it separate from the header and footer. 
-However the use of black and dark grey blend well together in tone. 
-Further more, use of black, dark grey and dark colors are well suited for a metal band / heavy rock band website. 
+However the use of black and dark grey blend well together in tone.
+Further more, the use of black, dark grey and dark colors are well suited for a metal band / heavy rock band website. 
 All three colours are the most consistently used background colour schemes of the whole website, although sometimes in darker or brighter tones.
 
 I used dark yellow and dark green as secondary background colours. 
@@ -182,14 +243,12 @@ The use of 'plain' white is suitable for static content.
 In contrast, I used a bright turquoise green colour for the track headings of audio files (on both the home and music pages.). 
 This adds importance to the text because it's associated with the interactive parts of the website.
 
-Simularily, I made all the external links and bright blue. 
+Simularily, I made all the external links bright blue. 
 This is because they are separate links to the website and I wanted them to be more distinguished from the page links dark red colouring.
 
 I used the same color for the form submision button's background color (from the hire page) to keep it distinguished.
 
 For all links and the form submission button, I made each turn bright yellow when hovered over. 
-The use of yellow keeps it consistant with tour date list background color aswell. 
-However, being a brighter yellow keeps associated with interactive content.
 
 The text color of the tour date list and available dates list is also dark red. 
 I used a dark red color to make the lists readable over the brighter green and yellow background colors. 
@@ -208,23 +267,15 @@ http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF
 
 ### Features Left to implement
 
-#### More content on the home page, and removal of content from the home page.
+I will add more pages website with their related page links added to the header.
 
-I may also had more content to the home page, such as fan art, music videos and news feeds.
+- Fan Art
+- News feed
+- Music Videos
+- Merchandise
+- A forum
 
-I may also remove content, such as the band/website descrion and list of band members. 
-I could create a History page which would go through this kind of informtion in more detail instead.
-
-If I was to remove this information, it would mean the Home Page would be primarily used for previews of webpage content and promotional materials.
-Other bands have used their home page primarily for this reason. 
-I believe that displaying audio, video and photographic material is the best way to have fans interested in the website and it makes the website more interactive.
-
-#### Expansion on the Music page.
-I indend to create a more complex UI system for the Music Page. 
-I will have the music page display all the album covers as images. 
-Each Album cover will work as a link. 
-Each link will bring the user to a page dedicated to the album, providing full details and credits of the album, full song lists and song lyrics. 
-From this page I will also have a link that brings the user back to the album listings page, for better user experience.
+I may also add a search bar.
 
 ## Technologies Used
 
@@ -245,6 +296,8 @@ Photo credits:
 - album1982.jpg
 - album1984.jpg
 - album2015.jpg
+ ( copywrite credit: The Scorpions 
+   link: https://www.the-scorpions.com/album/)
 
 - crazy-world-tour2017.jpg  
   (copywrite credit: Claypaky twitter account @ClayPakyNews.
@@ -313,8 +366,33 @@ Photo credits:
   )
 
 ## Testing
-h  
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Used the following validators to test the code:
+https://jigsaw.w3.org/css-validator/validator
+https://validator.w3.org/
+
+In testing the UX, I will go over each user story.
+
+##### 1 - listen to the bands music and watch videos (should include atleast one video clip)
+I included one promotional video on the home page and multiple music clips on the the home page and music page.
+I also provided external links to the bands spotify and itunes accounts for extra music resources for the user to use. These external links can be found on the header and music page.
+
+##### 2 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
+
+The remaining social media links can be found on the footer for the user to access.
+
+##### 3 - look at photos of the band on tour and of each idividual band member.
+The photos page shows a photo of each band member. The remaining photos show the rest of the band.
+
+##### - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
+
+The tour dates and list of dates for hire can be found on the hire page. The tour dates list is also found on the Home page.
+There is contact form on the hire page.
+
+
+
+In this section, you need to convince the assessor that you have conducted enough testing 
+to legitimately believe that the site works well. 
+Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -334,15 +412,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
 - Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I developed the project on Cloud9 and ran it through production on GitHub and hosted it on GitHub pages.
 
+
+I first deployed the home page and CSS file together, after building the Header and Footer while I was developing them at the same time.
+
+Then I copied and pasted the header and footer content on to the remaining three pages and deployed this as my second comit.
+
+Then I built each page and commited the project after each build. 
+
+I ran the project locally through Cloud9. 
 
 ## Credits
 

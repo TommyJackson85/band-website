@@ -3,43 +3,7 @@
 body {
     padding: 0 0;
     margin: 0 0;
-}
-
-/*----------------------------------------images*/
-
-.band-profile-image {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    background-image: url("../images/scorpions1.jpg");
-    background-color: #cccccc;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 150px;
-   /* transition: all .5 ease-in-out;
-    -moz-transition: all .5 ease-in-out;
-    -webkit-transition: all .5 ease-in-out;*/
-}
-
-.band-main-heading {
-    height: 43px;
-}
-
-.heading, .band-main-heading {
-    /*image file*/
-    padding: 5px;
-    margin-left: 0px;
-}
-
-.footer-logo {
-    height: 65px;
-    margin-top: 0;
-    margin-left: 0;
-}
-
-.album img {
-    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*---------------------------background colours*/
@@ -83,9 +47,6 @@ section, .music-page, .photos-page, .hire-page {
 .modal-content, .mySlides {
     background-color: black;
 }
-/*.mySlides{
-    background-color: #ad2d2d;
-}*/
 
 .song-sample-list {
     background-color: #882C22;
@@ -98,11 +59,41 @@ section, .music-page, .photos-page, .hire-page {
     background-color: #2DA267;
 }
 
+/*----------------------------------------images*/
+
+.band-profile-image {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-image: url("../images/scorpions1.jpg");
+    background-color: #cccccc;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+}
+
+.band-main-heading {
+    height: 43px;
+}
+
+.heading, .band-main-heading {
+    /*image file*/
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.footer-logo {
+    height: 65px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.album img {
+    width: 100px;
+}
+
 /*-----------------------------------External link colors (home page, music page, header and footer)*/
-/*.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0,0.2);
-    height: 40px;
-}*/
 
 .music-links a i, .social-media-links li a i, .album-details a i {
     color: #008BFF; /*#ad2d2d;*/
@@ -122,14 +113,13 @@ header {
 .band-sub-heading {
     color: #ffffff;
     padding: 0 0 0 20px;
-    margin-left: 0 0 0 15px;
 }
 
 .menu-links .list-inline {
     margin-left: 0 !important;
 }
 
-.menuitem{
+.menuitem {
     height: 40px;
     text-align: center;
     padding: 0;
@@ -232,7 +222,6 @@ footer h5 {
     color: #00E5BF;
 }
 
-
 .song-sample-list h3 {
     padding: 0 0 0 30px;
     margin-top: 0;
@@ -244,7 +233,7 @@ footer h5 {
 }
 
 .song-sample-list .track h4 {
-    margin-left: 5px;
+    margin-left: auto;
 }
 
 .song-sample-list .track .controls {
@@ -304,6 +293,11 @@ footer h5 {
 
 /*tour date list and available dates list (home and hire pages)*/
 
+.gig-availability {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .tour-dates-list, .available-dates-list {
     color: #5C2516;
     height: 100%;
@@ -318,8 +312,12 @@ footer h5 {
 .last-item {
     border-bottom: 0;
 }
+/*-----------------------------------hire page-*/
+/*-message-form-*/
 
-/*--------------------------------message-form (hire page)-*/
+.hire-page .main-section {
+    padding: 15px 0px 0px;
+}
 
 .message-button {
     color: white;
@@ -350,7 +348,7 @@ footer h5 {
 }
 
 /*--.column {
-orginally from W3 Schools
+orginally from W3 Schools, removed to add Bootstrap columns instead
   float: left;
   width: 25%;
 }*/
@@ -390,8 +388,6 @@ orginally from W3 Schools
 }
 .mySlides {
     width: auto;
-    /*background-color: blue;*/
-    position: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -447,6 +443,7 @@ orginally from W3 Schools
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  -moz-user-select: none; 
 }
 
 /* Position the "next button" to the right */
@@ -501,9 +498,8 @@ orginally from W3 Schools
 /*-----------------------------------------------Hire Page*/
 
 .hire-page .main-section {
-    padding: 15px 0;
+    padding: 15px 0 0;
 }
-
 .contact-form {
     margin: 10px 0 15px;
 }
@@ -554,6 +550,13 @@ orginally from W3 Schools
         padding: 6px;
     }
     
+    /*home page*/
+    
+    .promotions .song-sample-list,
+    .promotions .tour-dates-list {
+        margin: 0 5%;
+    }
+    
     /*music page*/
     .album {
         padding: 15px 0;
@@ -575,15 +578,9 @@ orginally from W3 Schools
     .album-details .content a i {
         font-size: 42px;
     }
-    /*.album-tracks{
-        margin: 0 auto;
-    }*/
     .album-tracks h5 {
         font-size: 1.7rem;
     }
-    /*.album-tracks .controls {
-        max-width: 320px;
-    }*/
     /*photo page*/
     
     .mySlides img {
@@ -598,6 +595,11 @@ orginally from W3 Schools
     .next {
       top: 13%;
     }
+    /*hire page*/
+    .hire-page .main-section {
+        padding: 15px 5% 0;
+    }
+    
 } 
 
 @media (min-width: 504px) {
@@ -617,6 +619,15 @@ orginally from W3 Schools
         float: right;
     }
     
+    .about {
+        margin: 0 5%;
+    }
+    
+    .promotions .song-sample-list,
+    .promotions .tour-dates-list {
+        margin: 0 8%;
+    }
+    
     .song-sample-list .track {
         width: 100%;
       /*  margin-left: 15%;*/
@@ -625,23 +636,21 @@ orginally from W3 Schools
     .video, .video iframe {
         width: 460px;
         height: 300px;
-         margin: 0 auto;
-        position: center;
+        margin: 0 auto;
+       /* position: center;*/
     }
     
     .footer-logo {
         margin: 0 0 0 0;
-        padding-top: 0 0 7px 0;
+       /* padding-top: 0 0 7px 0;*/
         height: 90px;
     }
-    
     .social-media-heading {
         padding-top: 25px;
     }
     
-    
     /*photo page*/
-        .photo-preview img {
+    .photo-preview img {
         height: 150px;
     }
     
@@ -653,14 +662,17 @@ orginally from W3 Schools
       max-height: 500px;
     } 
     
-    .prev,
-    .next {
+    .prev, .next {
         top: 14%;
     }
+    
+    .hire-page .main-section {
+        padding: 15px 6% 0;
+    }
+    
 } 
 
 @media (min-width: 768px) {
-    
     .band-main-heading {
         height: 60px;
     }
@@ -681,15 +693,14 @@ orginally from W3 Schools
     }
     
     .about{
-        margin-top: 15px;
+        margin: 15px 0 0 0;
         padding: 15px 6% 5px 6%;
     }
-
-    /*.track {
-        width:100%;
-        max-width: 290px;
-        margin: 0 auto;
-    }*/
+    
+    .promotions .song-sample-list,
+    .promotions .tour-dates-list {
+        margin: 0 0;
+    }
     
     .music-links a i {
         font-size: 50px;
@@ -709,10 +720,6 @@ orginally from W3 Schools
         height: 107px;
     }
     
-    /*.social-media-heading {
-        margin-top: 23px;
-    }*/
-    
    .social-media-links li a i {
         font-size: 38px;
         padding: 10px;
@@ -725,28 +732,24 @@ orginally from W3 Schools
         margin: 0 0;
         margin-left: 10px;
     }
-    
     .album-details {
         padding: 15px 10px 0;
     }
-    
     .album-details .content img {
         width: 170px;
     }
-    
     .album-details .content h5, .album-tracks h5 {
         padding-top: 5px;
     }
-    
     /*photo page*/
-    
     .photo-preview img {
         height: 150px;
     }
-    
-    .prev,
-    .next {
+    .prev, .next {
         top: 22%;
+    }
+    .hire-page .main-section {
+        padding: 0 0 0 0;
     }
 }
 

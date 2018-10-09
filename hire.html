@@ -11,6 +11,9 @@
     </head>
     <body>
         <!--HEADER-->
+        <!--I first used the code from for the header and footer of the resume project.
+        and I altered it. 
+        -->
         <header class="container-fluid">
             <div class="row">
                 <div class="col-sm-4 row band-profile-image">
@@ -55,27 +58,31 @@
         <section class="container-fluid">
             <div class="row hire-page">
                 <div class="col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 main-section">
-                   <form class="col-sm-8 contact-form">
+                   <form method="post" class="col-sm-8 contact-form">
                       <strong>Our 2018/2019 World Tour has started!</strong>
                       <p>We are looking to fill up our available tour dates. 
                       We are availble for concerts, weddings and events. 
                       Contact us below to enquire about bookings and prices.</p>
-                      <strong>Please check the list of availble tour dates 
+                      <strong>Please check the list of availble tour dates and the locations of availability 
                       <i>(either to the right or below the form)</i>, 
-                      which also provide the locations of our availability!</strong>.
+                      .</strong>
                       <div class="form-group first-form-group">
-                        <label for="exampleFormControlInput1">Full Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Maguire">
+                        <label for="exampleFormControlInput1">First Name</label>
+                        <input type="text" required="true" class="form-control" name="firstname" id="exampleFormControlInput1" placeholder="John">
+                      </div>
+                     <div class="form-group first-form-group">
+                        <label for="exampleFormControlInput1">Second Name</label>
+                        <input type="text" required="true" class="form-control" name="lastname" id="exampleFormControlInput2" placeholder="Maguire">
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                        <input type="email" required="true" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please specify date, venue, type of event and any other relevent information." rows="3"></textarea>
+                        <textarea required="true" class="form-control" id="exampleFormControlTextarea1" placeholder="Please specify date, venue, type of event and any other relevent information." rows="3"></textarea>
                       </div>
-                      <button type="submit" class="btn btn-default message-button">Submit</button>
+                      <button type="submit" value="Send!" target="_blank" class="btn btn-default message-button">Submit</button>
                     </form>
                     <div class="col-sm-4 gig-availability">
                        <div class="available-dates-list">
@@ -94,7 +101,7 @@
                                   <h5>3rd DEC - 30th DEC (European area)</h5>
                               </li>
                               <li class="list-group-item last-item">
-                                  <i>More available dates may arise in the future. Please contact us below for more enquiries.</i>
+                                  <i>More available dates may arise in the future. Please contact us for more enquiries.</i>
                               </li>
                             </ul>
                         </div>
