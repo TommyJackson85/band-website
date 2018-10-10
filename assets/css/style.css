@@ -497,15 +497,16 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
 
 /*-----------------------------------------------Hire Page*/
 
-.hire-page .main-section {
-    padding: 15px 0 0;
-}
-.contact-form {
-    margin: 10px 0 15px;
-}
-.first-form-group {
-    margin-top: 10px;
-}
+    .hire-page .main-section {
+        padding: 15px 0 0;
+    }
+    .contact-form {
+        margin: 10px 0 15px;
+    }
+    .first-form-group {
+        margin-top: 10px;
+    }
+
 
 /*----------------------------media queries*/
 

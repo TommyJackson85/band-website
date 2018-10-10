@@ -58,31 +58,34 @@
         <section class="container-fluid">
             <div class="row hire-page">
                 <div class="col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 main-section">
-                   <form method="post" class="col-sm-8 contact-form">
+                   <form class="col-sm-8 contact-form">
                       <strong>Our 2018/2019 World Tour has started!</strong>
                       <p>We are looking to fill up our available tour dates. 
                       We are availble for concerts, weddings and events. 
                       Contact us below to enquire about bookings and prices.</p>
                       <strong>Please check the list of availble tour dates and the locations of availability 
                       <i>(either to the right or below the form)</i>, 
-                      .</strong>
+                      </strong>
+                      <strong>
+                          <h6 style="color: red;">* (field required)</h6>
+                      </strong>
                       <div class="form-group first-form-group">
-                        <label for="exampleFormControlInput1">First Name</label>
-                        <input type="text" required="true" class="form-control" name="firstname" id="exampleFormControlInput1" placeholder="John">
+                        <label for="exampleFormControlInput1">First Name <strong style="color: red;">*</strong></label>
+                        <input type="text" class="form-control" name="firstname" id="exampleFormControlInput1" placeholder="John" required>
                       </div>
                      <div class="form-group first-form-group">
-                        <label for="exampleFormControlInput1">Second Name</label>
-                        <input type="text" required="true" class="form-control" name="lastname" id="exampleFormControlInput2" placeholder="Maguire">
+                        <label for="exampleFormControlInput1">Second Name <strong style="color: red;">*</strong></label>
+                        <input type="text" class="form-control" name="lastname" id="exampleFormControlInput2" placeholder="Maguire" required>
                       </div>
                       <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" required="true" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
+                        <label for="exampleFormControlInput1">Email address <strong style="color: red;">*</strong></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com" required>
                       </div>
                       <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea required="true" class="form-control" id="exampleFormControlTextarea1" placeholder="Please specify date, venue, type of event and any other relevent information." rows="3"></textarea>
+                        <label for="exampleFormControlTextarea1">Message <strong style="color: red;">*</strong></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please specify date, venue, type of event and any other relevent information." rows="3" required></textarea>
                       </div>
-                      <button type="submit" value="Send!" target="_blank" class="btn btn-default message-button">Submit</button>
+                      <button type="submit" value="Send!" target="_blank" class="btn btn-default message-button" id="submitButton">Submit</button>
                     </form>
                     <div class="col-sm-4 gig-availability">
                        <div class="available-dates-list">
@@ -153,5 +156,18 @@
                 </div>
             </div>
         </footer>
-    </body>    
+    </body> 
+<!--<script>
+        var input1 = document.getElementById("exampleFormControlInput1");
+        var input2 = document.getElementById("exampleFormControlInput2");
+        var input3 = document.getElementById("exampleFormControlInput3");
+        var textarea = document.getElementById("exampleFormControlTextarea1");
+        var submitButton = document.getElementById("submitButton");
+        
+        submitButton.onclick = function(){
+            if (input1.value !== "" && input2.value !== "" && input3.value !== "" && textarea.value !== "") {
+                alert("submitted!")
+            };
+        }
+    </script>-->
 </html>

@@ -204,6 +204,24 @@ It is helpful for the user to be aware of the booked tour dates and booked locat
 ##### Future changes
 
 I might add more form inputs to the form and I might change the design of the tour and dates for hire listings.
+I will also add a pop up for when the message is sent. The only reason I didn't put it in this project is incase of potential cross platform bugs. 
+
+The following is my work in progress:
+
+<script>
+
+        var input1 = document.getElementById("exampleFormControlInput1");
+        var input2 = document.getElementById("exampleFormControlInput2");
+        var input3 = document.getElementById("exampleFormControlInput3");
+        var textarea = document.getElementById("exampleFormControlTextarea1");
+        var submitButton = document.getElementById("submitButton");
+        
+        submitButton.onclick = function(){
+            if (input1.value !== "" && input2.value !== "" && input3.value !== "" && textarea.value !== "") {
+                alert("submitted!")
+            };
+        }
+</script>
 
 #### Color schemes (of all pages)
 
@@ -291,80 +309,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
   
 ### Photo's and Lightbox
 
-Photo credits: 
-
-- album1982.jpg
-- album1984.jpg
-- album2015.jpg
- ( copywrite credit: The Scorpions 
-   link: https://www.the-scorpions.com/album/)
-
-- crazy-world-tour2017.jpg  
-  (copywrite credit: Claypaky twitter account @ClayPakyNews.
-    link: https://twitter.com/ClayPakyNews/status/956184655019028480  )
-
-- klaus-meine.jpg 
-  ( copywrite credit: Source: Ethan Miller/Getty Images North America ; secondary resource: Zimbio;
-    link: http://www.zimbio.com/photos/Klaus+Meine/Scorpions+Cinderella+Perform+Thomas+Mack+Center/Wr5wBuxvmI7 )
-
-- matthias-jabs.jpg 
-  (copywrite credit: https://www.gettyimages.ca/photos/matthias-jabs?page=10&sort=mostpopular&phrase=matthias%20jabs&family=editorial ;
-   link: https://www.gettyimages.ca/photos/matthias-jabs?page=9&sort=mostpopular&mediatype=photography&phrase=matthias%20jabs ;)
-
-- melbourne-2016.jpg
-  (copywrite: Silver Tiger Media and Roger Brooks Photography;
-   link: http://silvertigermedia.com.au/2016/10/scorpions-the-palais-theatre-melbourne-18102016/ ;)
-
-- mikkey-dee.jpg
-  ( copywrite: Metal-Hammer; Photo credit: Sarah Fleischer (www.sarahfleischer.de);
-    link: https://www.metal-hammer.de/scorpions-rekrutieren-motoerhead-schlagzeuger-mikkey-dee-616125/ ;)
-
-- pawel-maciwoda.jpg
-  ( copywrite: Zimbio;  Photo credit: Ethan Miller/Getty Images North America ;
-    link: http://www.zimbio.com/photos/Pawel+Maciwoda/Scorpions+Cinderella+Perform+Thomas+Mack+Center/2rKKSgji6PO ;)
-
-- rudolf-schenker.jpg
-  ( copywrite: Getty Images and Apollo ;
-    link: https://www.photos.com/pictures/rudolf-schenker ;)
-
-- scoripions-logo3.jpg
- ( copywrite: Teepublic and Scorpions ;
-   link: https://www.teepublic.com/t-shirt/1167478-scorpions-logo ;
-  )
-
-- scorpions-name.png 
-  ( copywite: The Scorpions - Backstreet Merch and The Scorpions ; 
-    link: https://the-scorpions.backstreetmerch.com/ ; )
-
-- scorpions-on-tour.jpg 
-  ( copywrite:  Romanian Insider;
-    link: https://www.romania-insider.com/scorpions-bucharest-world-tour/ ;)
-
-- scorpions-on-tour2.jpg
-  (copywrite: ImgCop ;
-    link:https://imgcop.com/img/Scorpions-Band-1684375/  ;  
-  )
-
-- scorpions-on-tour3.jpg 
-  ( copywrite: U Discover Music;
-    link: https://www.udiscovermusic.com/news/scorpions-longevity-not-oldies-band/ ;
-  )
-
-- scorpions-on-tour4.png
-  ( copywrite: The Nokia Theatre at L.A. Live on July 31, 2010 ;
-    link: http://www.zimbio.com/pictures/_2BQwOKq7Cb/Scorpions+Cinderella+Performs+Nokia+Theatre/_M4n_eNuLvO/Matthias+Jabs ;
-  )
-
-- scorpions-on-tour5.jpg
-  ( copywrite: Rock Music Timeline;
-    link: http://www.rockmusictimeline.com/1991gallery.html ;
-  )
-
-- scorpions1.jpg
-  ( copywite: Getty Images, The Scorpions ;
-    link: https://www.gettyimages.ie/detail/news-photo/german-rock-band-the-scorpions-poses-for-a-portrait-in-1992-news-photo/494470885 ;
-  )
-
 ## Testing
 Used the following validators to test the code:
 https://jigsaw.w3.org/css-validator/validator
@@ -438,7 +382,90 @@ I ran the project locally through Cloud9.
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+
+
+music credits:
+- Artist: Dark Meat;
+  audio tracks: Dark_Meat_-_05_-_Last_of_the_Frontiersmen.mp3; Dark_Meat_-_07_-_Flaps.mp3;
+- Artist: eddy;
+  audio tracks: eddy_-_03_-_All_The_Way_Up.mp3; eddy_-_04_-_Machinery.mp3;
+- Artist: Maeth;
+  audio tracks: Maeth_-_01_-_Everything_is_an_orchid.mp3; Maeth_-_03_-_but_I_am_shafts_of_light.mp3;
+  (all tracks came from the Free Music Archive and are used for non profit and educational purposes.
+  website: https://freemusicarchive.org/genre/Psych-Rock/ )
+
+Photo credits: 
+- album1982.jpg
+- album1984.jpg
+- album2015.jpg
+ ( copywrite credit: The Scorpions 
+   link: https://www.the-scorpions.com/album/)
+
+- crazy-world-tour2017.jpg  
+  (copywrite credit: Claypaky twitter account @ClayPakyNews.
+    link: https://twitter.com/ClayPakyNews/status/956184655019028480  )
+
+- klaus-meine.jpg 
+  ( copywrite credit: Source: Ethan Miller/Getty Images North America ; secondary resource: Zimbio;
+    link: http://www.zimbio.com/photos/Klaus+Meine/Scorpions+Cinderella+Perform+Thomas+Mack+Center/Wr5wBuxvmI7 )
+
+- matthias-jabs.jpg 
+  (copywrite credit: https://www.gettyimages.ca/photos/matthias-jabs?page=10&sort=mostpopular&phrase=matthias%20jabs&family=editorial ;
+   link: https://www.gettyimages.ca/photos/matthias-jabs?page=9&sort=mostpopular&mediatype=photography&phrase=matthias%20jabs ;)
+
+- melbourne-2016.jpg
+  (copywrite: Silver Tiger Media and Roger Brooks Photography;
+   link: http://silvertigermedia.com.au/2016/10/scorpions-the-palais-theatre-melbourne-18102016/ ;)
+
+- mikkey-dee.jpg
+  ( copywrite: Metal-Hammer; Photo credit: Sarah Fleischer (www.sarahfleischer.de);
+    link: https://www.metal-hammer.de/scorpions-rekrutieren-motoerhead-schlagzeuger-mikkey-dee-616125/ ;)
+
+- pawel-maciwoda.jpg
+  ( copywrite: Zimbio;  Photo credit: Ethan Miller/Getty Images North America ;
+    link: http://www.zimbio.com/photos/Pawel+Maciwoda/Scorpions+Cinderella+Perform+Thomas+Mack+Center/2rKKSgji6PO ;)
+
+- rudolf-schenker.jpg
+  ( copywrite: Getty Images and Apollo ;
+    link: https://www.photos.com/pictures/rudolf-schenker ;)
+
+- scoripions-logo3.jpg
+ ( copywrite: Teepublic and Scorpions ;
+   link: https://www.teepublic.com/t-shirt/1167478-scorpions-logo ;
+  )
+
+- scorpions-name.png 
+  ( copywite: The Scorpions - Backstreet Merch and The Scorpions ; 
+    link: https://the-scorpions.backstreetmerch.com/ ; )
+
+- scorpions-on-tour.jpg 
+  ( copywrite:  Romanian Insider;
+    link: https://www.romania-insider.com/scorpions-bucharest-world-tour/ ;)
+
+- scorpions-on-tour2.jpg
+  (copywrite: ImgCop ;
+    link:https://imgcop.com/img/Scorpions-Band-1684375/  ;  
+  )
+
+- scorpions-on-tour3.jpg 
+  ( copywrite: U Discover Music;
+    link: https://www.udiscovermusic.com/news/scorpions-longevity-not-oldies-band/ ;
+  )
+
+- scorpions-on-tour4.png
+  ( copywrite: The Nokia Theatre at L.A. Live on July 31, 2010 ;
+    link: http://www.zimbio.com/pictures/_2BQwOKq7Cb/Scorpions+Cinderella+Performs+Nokia+Theatre/_M4n_eNuLvO/Matthias+Jabs ;
+  )
+
+- scorpions-on-tour5.jpg
+  ( copywrite: Rock Music Timeline;
+    link: http://www.rockmusictimeline.com/1991gallery.html ;
+  )
+
+- scorpions1.jpg
+  ( copywite: Getty Images, The Scorpions ;
+    link: https://www.gettyimages.ie/detail/news-photo/german-rock-band-the-scorpions-poses-for-a-portrait-in-1992-news-photo/494470885 ;
+  )
 
 ### Acknowledgements
 
