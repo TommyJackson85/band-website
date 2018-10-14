@@ -1,9 +1,55 @@
 /*-----------------body and base measurements*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+https://stackoverflow.com/questions/18739937/how-to-keep-footer-at-bottom-of-screen
+*/
+html {
+  height: 100%;
+}
 
 body {
+    min-height: 100vh;
     padding: 0 0;
-    margin: 0 0;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+/*header, section {
+ /*position: absolute;*/
+  /*top: 0;
+  left: 0;
+}*/
+header {
+    position: relative;
+    margin: 0 0;
+}
+
+footer {
+ position: relative;
+  margin-top: -181px;
+  /* negative value of footer height */
+  height: 180px;
+  clear: both;
+}
+
+section {
+    margin-top: -151px;
+    padding-top: 151px;
+    padding-bottom: 181px;
+    min-height: inherit;  /*large lenghts at 100vm*/
+    width: auto;
+}
+
+
+.home-page, .photos-page, .music-page, .hire-page {
+  /*overflow: auto;*/
+  padding-bottom: 0px;
+  width: inherit;
+  /*padding-top: 290px;*/
+  /* must be same height as the footer */
 }
 
 /*---------------------------background colours*/
@@ -37,10 +83,10 @@ header, footer {
 .home-page {
     background-color: #404040;
 }
-section, .music-page, .photos-page, .hire-page {
+.other-page-container, .music-page, .photos-page, .hire-page {
      background-color: #882C22; /* #ad2d2d;*/
 }
-.main-section {
+.home-page-container, .main-section, .home-page {
     background-color: #3F3F3F; /*#404040;*/
 }
 /*image page*/
@@ -106,7 +152,6 @@ section, .music-page, .photos-page, .hire-page {
 
 header {
     padding: 0 0;
-    margin: 0 0;
     border-bottom: 1px solid #191919;
 }
 
@@ -157,7 +202,7 @@ footer {
 footer h5 {
    /* font-size: 30px;*/
     color:  #7C7C7C; /*#bdc3c7;*/
-    padding: 5px 0 5px 5px;
+    padding: 0 0;
 } 
 
 .footer-logo-div {
@@ -170,10 +215,10 @@ footer h5 {
     margin-top: 20px;
     padding-left: 15px;
 }
-
 .social-media-links li a i {
     font-size: 30px;
-    padding: 5px;
+}
+    /*padding: 5px;
 }
 
 /*-----------------------------------------------------home page*/
@@ -242,14 +287,19 @@ footer h5 {
 
 /*-------------------music page*/
 .music-page, .music-page .main-section {
-    padding: 0;
+/*width: 100%;*/
+padding: 0 0;
 }
+
 .music-page {
     margin: 0 0;
+    padding: 0 0;
 }
 
 .album {
-    padding: 10px 0px;
+    padding: 15px 0px;
+    margin: 0px 0px;
+    width: 100%;
     border-bottom: solid 1px  #191919;
 }
 
@@ -258,16 +308,18 @@ footer h5 {
 }
 
 .album-tracks h5, .album-tracks .track {
-    max-width: 290px;
+    max-width: 300px;
     margin: 5px auto;
 }
-
 .album-tracks .track .controls {
     width: 100%;
 }
+/*.album-details {
+    width: auto;
+}*/
 
 .album-details .content {
-    width: 295px;
+    width: 100%;
     margin: 0 auto;
     display:block;
 }
@@ -364,6 +416,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
 }
 
 /* The Modal (background) */
+
 .modal {
   display: none;
   position: fixed;
@@ -371,30 +424,41 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
   padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
+  width: 100vw;
+  max-height: auto;
+  overflow: hidden;
 }
-
+/*.modal{
+    overflow:hidden;
+    }
+    .modal-body{
+    overflow:auto;
+    }
+*/
 /* Modal Content */
 .modal-content {
   position: relative;
-  /*background-color: #fefefe;*/
   margin: 0 auto;
   width: 100%;
+  height: 100%;
   padding: 0;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
+  /*overflow: scroll;*/
 }
+
 .mySlides {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    width: inherit;
+    /*margin-left: auto;
+    margin-right: auto;*/
     text-align: center;
+    background-color: black;
 }
 
 .selected-slide {
-    height: 340px;
+    background-color: black;
+    height: inherit;
+    width: inherit;
+    
 }
 
 .mySlides img {
@@ -410,6 +474,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
   right: 25px;
   font-size: 35px;
   font-weight: bold;
+  opacity: .8; /*brightened for user clarity*/
 }
 
 .close:hover,
@@ -432,7 +497,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
 .next {
   cursor: pointer;
   position: absolute;
-  top: 12%;
+  top: 25%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -473,10 +538,10 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
 
 .caption-container {
   text-align: center;
-  background-color: black;
   padding: 2px 16px;
   color: white;
 }
+
 
 .demo {
   opacity: 0.6;
@@ -493,6 +558,10 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal, .modal-content, .mySlides, .selected-slide, .caption-container {
+    background-color: black;
 }
 
 /*-----------------------------------------------Hire Page*/
@@ -547,7 +616,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
         padding-left: 30px;
     }
     .social-media-links li a i {
-        font-size: 37px;
+        font-size: 36px;
         padding: 6px;
     }
     
@@ -594,7 +663,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     
     .prev,
     .next {
-      top: 13%;
+      top: 30%;
     }
     /*hire page*/
     .hire-page .main-section {
@@ -664,7 +733,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     } 
     
     .prev, .next {
-        top: 14%;
+        top: 35%;
     }
     
     .hire-page .main-section {
@@ -686,23 +755,52 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     .heading p {
         font-size: 14px;
     }
+    /*.home-page, .photos-page, .music-page, .hire-page {
+      padding-bottom: 107px;
+      /* must be same height as the footer */
+    /*}*/
     
+    
+ /*   html,
+    body {
+      height: auto;
+    }*/
+
+    
+    /*section {
+      min-height: auto;
+      /*max-height: 100%;
+    }*/
+    
+    /*.main-section, .home-page {
+        overflow: auto;
+
+    }*/
+    /*footer {
+        height: 107px;
+        /*margin-top: -107px;*/
+       /* position: absolute;
+        clear: both;
+        bottom:0;
+    }*/
     .video {
         padding: 15px 0 0 0px;
         margin: 0 auto;
-        
     }
-    
     .about{
         margin: 15px 0 0 0;
         padding: 15px 6% 5px 6%;
     }
-    
     .promotions .song-sample-list,
     .promotions .tour-dates-list {
         margin: 0 0;
     }
-    
+    .promotions .song-sample-list {
+          padding: 5px 5px;
+    }
+    .promotions .tour-dates-list {
+        padding: 0 0;
+    }
     .music-links a i {
         font-size: 50px;
         padding: 22px 15px 0 15px;
@@ -721,12 +819,16 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
         height: 107px;
     }
     
-   .social-media-links li a i {
-        font-size: 38px;
+    .social-media-links li a i {
+        /*font-size: 38px;*/
         padding: 10px;
         margin-top: 5px;
     }
     /*---music page*/
+    
+    .album {
+        padding: 0 0;
+    }
     
     .album-details .content {
         width: 400px;
@@ -742,31 +844,110 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     .album-details .content h5, .album-tracks h5 {
         padding-top: 5px;
     }
-    /*photo page*/
-    .photo-preview img {
-        height: 150px;
+    
+  /*photo page*/
+  .photo-preview img {
+        height: 100px;
     }
     .prev, .next {
-        top: 22%;
+        top: 40%;
     }
+    /*page heights */
+    section {
+        margin-top: -151px;
+        padding-top: 151px;
+        padding-bottom: 107px;
+        min-height: inherit;  /*large lenghts at 100vm*/
+        width: auto;
+    }
+    
+    footer {
+      margin-top: -107px;
+      /* negative value of footer height */
+      height: 107px;
+       z-index: 1; 
+    }
+    header {
+      z-index: 1;
+    }
+    .modal { /*photo page*/
+        z-index: 2;
+    }
+
+    .home-page, .music-page, .photos-page, .hire-page, .main-section {
+        height: 100vh;
+        margin-bottom: -107px;
+        margin-top: -151px;
+    }
+    .home-page, .home-page .main-section, .photos-page, .photos-page .main-section {
+        padding-top: 151px; 
+    }
+    
+    /*.home-page, .home-page .main-section {
+        padding: 151px 0 0 0;
+    }
+    */.home-page, .home-page .main-section, .music-page .main-section, .hire-page .main-section {
+        padding: 151px 0 0 0; /*padding was previously set*/
+    }
+    .home-page, .home-page .main-section {
+          min-height: 802px;
+    }
+    .home-page .promotions .tour-dates-list {
+        height: 400px; /**/
+    }
+   .music-page, .music-page .main-section {
+          min-height: 905px;
+    }
+    /*.music-page .main-section {
+        padding-top: 151px;
+        margin-top: -151px;
+    }*/
+    .photos-page, .photos-page .main-section {
+          min-height: 700px;
+    }
+    .hire-page, .hire-page .main-section {
+          min-height: 1083px;
+    }
+    /*
     .hire-page .main-section {
-        padding: 0 0 0 0;
+        padding: 151px 0 0 0;
+        /*margin-top: -151px;*//*
+    }*/
+}
+@media (min-width: 785px) {
+     .hire-page, .hire-page .main-section {
+          min-height: 1065px;
     }
 }
+@media (min-width: 803px) {
+     .hire-page, .hire-page .main-section {
+          min-height: 1040px;
+    }
+}
+/*@media (min-width: 930px) {
+     .hire-page, .hire-page .main-section {
+          min-height: 1030px;
+    }
+}
+@media (min-width: 803px) {
+     .hire-page, .hire-page .main-section {
+          min-height: 1030px;
+    }
+}*/
 
 @media (min-width: 991px) {
     
-    .footer-logo-div {
+    /*.footer-logo-div {
         padding-top: 5px;
         padding-bottom: 5px;
         margin-left: 0;
-    }
+    }*/
     
-    .footer-logo {
+   /* .footer-logo {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
-        height: 90px;
-    }
+    
+    }*/
     
     .album-details {
         padding: 15px 15px 0;
@@ -785,4 +966,10 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
         margin-right: 4%
     }
     
+}
+
+@media (min-width: 930px) {
+     .hire-page, .hire-page .main-section {
+          min-height: 1030px;
+    }
 }

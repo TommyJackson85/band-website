@@ -130,7 +130,7 @@
 ## Testing
         -->
         
-       <section class="container-fluid">
+       <section class="container-fluid other-page-container">
           <div class="row photos-page">
             <div class="col-sm-xs col-md-10 col-md-offset-1 main-section">
               <h3>Tour Photos</h3>
@@ -184,7 +184,7 @@
           -->
           <div id="myModal" class="modal">
             <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
+            <div class="modal-content" id="modelContent">
               <div class="selected-slide">
                 <div class="mySlides">
                   <div class="numbertext">1 / 12</div>
@@ -253,7 +253,7 @@
                   <p id="caption"></p>
                 </div>
               </div>
-              <div class="row">
+              <!--<div class="row">
                 <div class="col-xs-6 col-sm-3 photo-preview">
                   <img class="demo cursor" src="assets/images/rudolf-schenker.jpg" onclick="currentSlide(1)" alt="Rudolf Schenker">
                 </div>
@@ -290,12 +290,12 @@
                 <div class="col-xs-6 col-sm-3 photo-preview">
                   <img class="demo cursor" src="assets/images/scorpions-on-tour5.jpg" onclick="currentSlide(12)" alt="Scorpions On Tour(5) April 1991 - Hanover, Germany">     
                 </div>
-              </div>
+              </div>-->
             </div>
           </div>
 	      </section>
         <!--FOOTER-->        
-<footer class="container-fluid">
+        <footer class="container-fluid">
             <div id="footer-details" class="row">
                 <div class="footer-logo-div col-xs-3 col-sm-3">
                     <img class="footer-logo" src="assets/images/scorpions-logo3.jpg" alt="Smiley face" />
@@ -331,8 +331,16 @@
               showSlides(slideIndex += n);
             }
             
+                // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+              var myModal = document.getElementById('myModal');
+              myModal.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+          }
+            
             function currentSlide(n) {
               showSlides(slideIndex = n);
+                  /*make go back top aswell*/
+              topFunction();
             }
             
             function showSlides(n) {
