@@ -27,7 +27,7 @@ As a user, I want to use the webstie to
 Wireframes, mockups, diagrams
 I used the Iron Maiden website (https://ironmaiden.com/)
 and Metallica's website (https://www.metallica.com/)
-for design and content inspiration, however I kept the design as possible for this website.
+for design and content inspiration, however I kept the design as simple possible for this website.
 
 ## Features
 
@@ -316,23 +316,65 @@ https://validator.w3.org/
 
 In testing the UX, I will go over each user story.
 
-##### 1 - listen to the bands music and watch videos (should include atleast one video clip)
-I included one promotional video on the home page and multiple music clips on the the home page and music page.
-I also provided external links to the bands spotify and itunes accounts for extra music resources for the user to use. These external links can be found on the header and music page.
+##### 1 -  ...watch videos (should include atleast one video clip)
+- The promotional video on the home page can be played on iPhone and iPad devices, aswell as Safari, Google Chrome and Firefox browsers.
+- The Video is wide enough for each size device and can be opened on full screen.
 
-##### 2 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
+##### 2 - listen to the bands music
 
-The remaining social media links can be found on the footer for the user to access.
+- The sample trackes on the the home page and music page have all been tested on iPhone, iPad and large screen devices aswell as Chrome, Firefox and Safari browsers. 
+From each platform/browser the tracks can be played and paused from initial load and they do not play automaticaly.
 
-##### 3 - look at photos of the band on tour and of each idividual band member.
-The photos page shows a photo of each band member. The remaining photos show the rest of the band.
-
-##### - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
-
-The tour dates and list of dates for hire can be found on the hire page. The tour dates list is also found on the Home page.
-There is contact form on the hire page.
+- track titles for each audio track are provided, aswell as the name of the album in which they came from.
+- On the music page, the album cover is displayed. The user is provided with as much information as possible about the songs they are listening to.
+- External links to the bands Spotify and iTunes accounts have also been provided (see the next user story for more information) 
 
 
+- listen to the bands music and watch videos (should include atleast one video clip),
+- find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
+- look at photos of the band on tour and of each idividual band member.
+- see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
+
+
+##### 3 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
+
+- External links to the bands social media and other media pages are provided and can be opened to a new blank page upon clicking.
+- This has been consistantly working with Safari, Chrome and Firefox boxes, aswell as iPhone, iPad and large screen devices.
+- Listening to the bands music is the first priority of the website so the Spotify and iTunes links are provided in the header on all pages.
+- Spotify and iTunes links are also provided with each of the albums on the music page, in which they link to each album's specific Spotify and iTunes accounts.
+- The Facebook, Twitter, Instagram and YouTube external links are all found on the footer of each page.
+- All the external links change to a bright yellow collor when hovered over, telling the user they are interactive.
+
+##### 4 - look at photos of the band on tour and of each idividual band member.
+- While the header shows profile picture of the whole band, the user can view more photos from the photos page.
+- Upon entering into the photos page, the user can rows of images, the same size.
+- On large screens, user doesnt have to scroll to view them and can see all of them on full screen.
+- The user can click each image, a modal is open in which the user can see the image in its full view and can view the image in whole without having to scroll.
+- From the Modal the user can scroll through all the images through the user of 'previous' (white arow to the left) and 'next' (white arrow to the right) buttons.
+- The user can escape the modal by clicking the white 'x' button at the top right corner of the modal.
+- The photo's contain 5 photos of individual band members (1 for each) and 7 band tour photos.
+
+##### 5 - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
+
+- A list of tour dates are provided on the home page and hire page.
+- A list of dates available for booking (around specific areas) can be seen on the Hire page.
+- Both lists, provide the user of an idea of the bands locations for booking. 
+- A paragraph promoting the bands up and coming tour can be seen above the form.
+- All this content is clearly visible on the webpage on all devices and browsers.
+
+- The form consists of four inputs for the users first name, second name, email and message, aswell as a submit button.
+- Upon clicking Submit, the page refreshes aslong as all fields are entered in and are correctly written. 
+(through further development of this site it will send a message to the bands email and notify the user that an email was sent)
+- If a field is missing, the form indicates to the user of any missing fields without refreshing, through Bootstrap's form validation.
+- All the functionality works on all browsers and devices.
+
+##### other information on user support
+
+- The header also contains 4 page links to navigate the website. 
+- They are for the Home Page, the Music Page, the Photos Page and Hire Page.
+- This helps the users find their way around the website without getting lost. 
+- These links have been tested on iPhone, iPad and large screen devices aswell as Firefox, Chrome and Safari browsers and have been found to have no errors.
+- Uppon hovering over these links they turn to a bright yellow color indicating to the user that they are interactive.
 
 In this section, you need to convince the assessor that you have conducted enough testing 
 to legitimately believe that the site works well. 
@@ -378,10 +420,16 @@ I ran the project locally through Cloud9.
 
 ## Credits
 
+
+
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- The text from the Home Page was copied and edited from the [Wikipedia article The Scorpions](https://en.wikipedia.org/wiki/Scorpions_(band))
 
 ### Media
+
+promotional video 
+- The video on the Home page came from the [The Scorpions YouTube](https://www.youtube.com/watch?v=UpOx-qk2yio)
 
 
 music credits:

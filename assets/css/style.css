@@ -157,11 +157,11 @@ header {
 
 .band-sub-heading {
     color: #ffffff;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
 }
 
 .menu-links .list-inline {
-    margin-left: 0 !important;
+    margin-left: 0px !important;
 }
 
 .menuitem {
@@ -183,14 +183,14 @@ header {
     padding-top: 12px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
 .music-links a i {
     font-size: 35px;
-    padding: 20px 15px 0 15px;
+    padding: 20px 0px 0 15px;
     float: right;
 } 
 
@@ -220,7 +220,6 @@ footer h5 {
 }
     /*padding: 5px;
 }
-
 /*-----------------------------------------------------home page*/
 /*used to display an intro duction to the band and a promo video*/
 
@@ -319,17 +318,19 @@ padding: 0 0;
 }*/
 
 .album-details .content {
-    width: 100%;
+    width: 288px;
     margin: 0 auto;
     display:block;
 }
 
 .album-details .content img {
     margin: 0 auto;
+    width: 30%;
     float: left;
 }
 .album-details .content h5 {
     margin-left: 3px;
+    width:65%;
     display: inline-block; 
 }
 
@@ -339,7 +340,7 @@ padding: 0 0;
 
 .album-details .content a i {
     font-size: 35px;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 40px;
 }
 
 
@@ -348,8 +349,11 @@ padding: 0 0;
 .gig-availability {
     padding-left: 0px;
     padding-right: 0px;
-}
 
+}
+.gig-availability .list-group {
+    margin-bottom: 0px;
+}
 .tour-dates-list, .available-dates-list {
     color: #5C2516;
     height: 100%;
@@ -643,6 +647,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     .album-details .content h5 {
         font-size: 1.7rem;
            margin-left: 4px;
+           width: auto;
     }
         
     .album-details .content a i {
@@ -774,7 +779,6 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     
     /*.main-section, .home-page {
         overflow: auto;
-
     }*/
     /*footer {
         height: 107px;
@@ -841,6 +845,9 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     .album-details .content img {
         width: 170px;
     }
+    .album-details .content h5 {
+        width: auto; 
+    }
     .album-details .content h5, .album-tracks h5 {
         padding-top: 5px;
     }
@@ -886,14 +893,20 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     /*.home-page, .home-page .main-section {
         padding: 151px 0 0 0;
     }
-    */.home-page, .home-page .main-section, .music-page .main-section, .hire-page .main-section {
+    */.home-page, .home-page .main-section, .music-page, .music-page .main-section, .hire-page, .hire-page .main-section {
         padding: 151px 0 0 0; /*padding was previously set*/
+       /* -webkit-padding-before: 300px;
+        -webkit-padding-end: 0px;
+        -webkit-padding-after: 0px;
+        -webkit-padding-start: 0px;*/
+        /*padding: 0 0;*/
+       padding-top: 151px;
     }
     .home-page, .home-page .main-section {
-          min-height: 802px;
+          min-height: 902px;
     }
     .home-page .promotions .tour-dates-list {
-        height: 400px; /**/
+        height: 100%; /**/
     }
    .music-page, .music-page .main-section {
           min-height: 905px;
@@ -906,7 +919,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
           min-height: 700px;
     }
     .hire-page, .hire-page .main-section {
-          min-height: 1083px;
+          min-height: 1070px;
     }
     /*
     .hire-page .main-section {
