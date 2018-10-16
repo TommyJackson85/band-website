@@ -12,12 +12,12 @@ There will be links to the bands iTunes and Spotify accounts on the header of ea
 The website will initially have four pages. 
 It will have a home page which will contain promotions and a brief description of the band.
 The promotions will include a tour promotional video, tour dates and sample songs from their latest album. 
-There will also be a music page containing songs from three of their albums, a photo page containing multiple photos to view in full, and a hire page where the user can contact the band directly to hire them for gigs
+There will also be a music page containing songs from three of their albums, a photo page containing multiple photos to view in full, and a hire page where the user can contact the band directly to hire them for gigs.
 
 
 ## UX
 
-As a user, I want to use the webstie to
+As a user, I want to use the website to:
 
 - listen to the bands music and watch videos (should include atleast one video clip),
 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
@@ -50,20 +50,22 @@ The website will have four separate pages, (1) a home page, (2) a music page, (3
 I used the code from for the header and footer sections of the resume project as a starting point to work from.
 
 I kept the same structure of the resume project header but I added an image of the band's logo/name and two external inks for the bands Spotify and iTunes accounts.
-Having external link to the bands music on the header is important because this website is primarily used to promote the bands music.
+Having external links to the bands music on the header is important because this website is primarily used to promote the bands music.
 
-The header has links to each page of website to allow for consistant easy access for users. 
+The header has links to each page of the website to allow for consistant easy access for the users. 
 On each page, the header indicates to the user which page they are on, 
 by having the related page link button have a lighter background color. 
 All of this is so the user won't be lost when navigating around the website.
 
-Alot of bands have diffent size headers. Some are big mast heads while others are slimmer and just contain the needed functionality and display.
-I decided to make the header medium sized
+Alot of the band's websites have diffent size headers. 
+Some have big mast heads while others are slimmer and just contain the needed functionality and display.
 
-There is a photo of the whole band on the header, on smaller screens it is on the top and on larger screens it is too the left.  
+I decided to make the header more medium sized.
+There is a photo of the whole band on the header. 
+On smaller screens it is on the top and on larger screens it is too the left.  
 This image gives new fans an idea of what kind of band the Scorpions are.
 
-I made the page links small/slim with extra margin space at the bottom, so that black background can be partially seen at the bottom. 
+I made the page links small and slim with extra margin space at the bottom, so that black background can be partially seen at the bottom. 
 This is so the the links feel they are part of the header and not just attched under the bottom.
 
 I also kept most of the structure of the footer (from the resume project) in place.
@@ -74,40 +76,39 @@ Having iTunes and Spotify in the header makes more sense because they are of mor
 
 In general, having external links on the footer and header will allow the user to have consistent access to them.
 
-In the future, I might add more pages to the website, which means I will add more page links to the footer.
-With this in mind. I might have to remove the band image from the header to allow more space
+##### Future changes
+
+In the future, I might add more pages to the website, which means I will add more page links to the header.
+With this in mind. I might have to remove the band image from the header to allow more space for page links.
 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 #### Home Page
 
-The home page page will consist of three columns: 
+The home page page consists of three columns: 
 - (a) A promotion of two songs from their latest album
 - (b) A list of tour dates 
 - (c) A main section (class-"main-section") which is largest part of the page and will have varied content.
 
-(a) and (b) will be stacked on top of each other. 
-On small screens they will be below the main section but on larger screens they will be pushed to the right
-like they are a side bar.
+(a) and (b) are stacked on top of each other. 
+On small screens they are below the main section but on larger screens they are pushed to the right as a side bar.
 
-The top of the main section will have a video promotion to promote the band's tour. This is so fans are immediately aware of the tour.
-Below the video will be a very description of the band and the website, this is for new potential fans to be introduced to the band.
-Then below the description will be a list of the band members in the band, which is also for new potential fans.
+The top of the main section has a video promotion to promote the band's tour. 
+This is for fans to be immediately aware of the tour.
+Below the video is a brief description of the band and the website. 
+This is for new potential fans to be introduced to the band.
+Then below the description is a list of the band members in the band, which is also for new potential fans aswell as regular fans.
 
-The new songs promotion and tour dates list will be stacked on top pf each other. 
-All three sections will have different background colours to keep them separate.
+The new songs promotion and tour dates list are stacked on top of each other. 
+All three sections have different background colours to keep them separate.
 
 I am trying to make the home page as random as possible, 
 while also providing as much previews and important fan content. 
 I got the inspirations from other band websites, such as Metallicas and Iron Maidens, 
 which both also had a 'random content' feel.
 
-For the tour guide list, I used Metallica's tour guide list as a guide on text sizes and designs.
+For the tour guide list, I used [Metallica's tour guide](https://www.metallica.com/tour/) list as a guide on text sizes and designs.
 
 ##### Future changes
 I may add other content, such as fan art and music videos the home page. I will either put it on the main section or in the form of another side bar column. 
@@ -123,8 +124,8 @@ I will add a link to this page in the header.
 I am using this page to display all the sample songs I intend to have available. 
 There will be three albums on display with a picture of the album cover, the album heading and year release and external links to the albums Spotify and iTunes accounts. 
 
-Underneat each album display on small screens, I displayed two listenable tracks chosen from the album. On larger screens I pushed the tracks to the right, aligning them next to the album display to the right.
-For the track listings I reused most of the the code and styling from the music section the of the home page, keeping it consistant.
+Underneath each album display on small screens, I displayed two listenable tracks chosen from the album. On larger screens I pushed the tracks to the right, aligning them next to the album display to the right.
+For the track listings I reused most of the the code and styling from the music section of the home page, keeping it consistant.
 
 The first Album on display will be latest album and will contain the two tracks from the home page. 
 The other two albums will be two of their classic albums from the 80's.
@@ -132,11 +133,11 @@ The other two albums will be two of their classic albums from the 80's.
 I took inspiration from other bands Discography pages on their website, particularly on how they display the album cover picture and details.
 
 ##### Future changes
-I will consider making all of their albums on for display, in which the initial music page will just display all the album cover images, aligned next to each other. Each link will link to a new page, that displays the albums full track listings and full production credits. From here the user will be able to read each song's lyrics. 
+I will consider putting all of their albums on for display, in which the initial music page will just display all the album cover images, aligned next to each other. Each link will link to a new page, that displays the albums full track listings and full production credits. From here the user will be able to read each song's lyrics. 
 I may also add more sample tracks for each album, however I will still have links to the album's Spotify and iTunes accounts.
-This building process will require ae a more complex UI wireframe, so I will add links to each albums page that will give the user the option to return to the full album listing and home page. I may also inlude the same header or footer for consistency.
+This building process will require a more complex UI wireframe, so I will add links to each albums page that will give the user the option to return to the full album listing and home page. I may also include the same header or footer for consistency.
 
-Many band websites used this type of wireframe, for example: https://ironmaiden.com/discography/studio-albums
+Many band websites used this type of wireframe, [for example: ](https://ironmaiden.com/discography/studio-albums)
 
 #### Photos Page
 
@@ -152,11 +153,6 @@ without the user having to schroll up and down to see
 all of the whole image. 
 The image size increases in size on on larger screens.
 The image caption is displayed right below the enlarged image.
-
-Below the enlarged image, 
-the user can see the same collection of images from initally opening the photos page. 
-This is to allow the user to search through the images without closing the lightbox. 
-I also utilised next and previous buttons for the user to schroll though all the pictures.
 
 The enlarged image and image caption are both placed in a parent div. The parent div has the exact same height for all selected images. 
 This was important because all the images vary in dimensions and sizes. The constant changes of image sizes/dimensions (from clicking the next and previous buttons, and clicking other images)
@@ -177,13 +173,12 @@ This was to keep as many of the images as possible in view.)
 
 ##### Future changes
  
-I may only make small changes to the design and add more photos. 
+Below the enlarged image on the original light box used
+was a collection of images from initally opening the photos page. 
+This was to allow the user to search through the images without closing the lightbox. 
 
-However I may also  remove the photo-previews from the lightbox box. 
-I think it might be better for the light box to only have the enlarged photo because there is already a photo preview at the start of the music page. 
-Including a photo preview in the bottom of the modal is making the user have to scroll to the bottom all the time. 
-When the user scrolls to the bottom, the 'X' buttom (at the top of the modal) is hidden. T
-his might be causing a negative user experience, however I still feel it is also helpful for the user to be able to choose specific images from the modal.
+I removed this because it was making the design overtly complex for the user. I wanted to keep it as simple as possible especially considering I am using some images that are quite large.
+I may however bring it back for future development.
 
 #### Hire Page
 
