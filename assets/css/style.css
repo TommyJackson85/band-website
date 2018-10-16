@@ -17,11 +17,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
-/*header, section {
- /*position: absolute;*/
-  /*top: 0;
-  left: 0;
-}*/
 header {
     position: relative;
     margin: 0 0;
@@ -29,16 +24,16 @@ header {
 
 footer {
  position: relative;
-  margin-top: -181px;
+  margin-top: -154px;
   /* negative value of footer height */
-  height: 181px;
+  height: 156px;
   clear: both;
 }
 
 section {
     margin-top: -151px;
     padding-top: 151px;
-    padding-bottom: 181px;
+    padding-bottom: 154px;
     min-height: inherit;  /*large lenghts at 100vm*/
     width: auto;
 }
@@ -142,7 +137,7 @@ header, footer {
 /*-----------------------------------External link colors (home page, music page, header and footer)*/
 
 .music-links a i, .social-media-links li a i, .album-details a i {
-    color: #008BFF; /*#ad2d2d;*/
+    color: #882C22;
 }
 .music-links a i:hover, .social-media-links li a i:hover, .album-details a i:hover {
     color: #FFDE00;/*#FFD100;*/
@@ -744,49 +739,19 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     .hire-page .main-section {
         padding: 15px 6% 0;
     }
-    
 } 
 
 @media (min-width: 768px) {
     .band-main-heading {
         height: 60px;
     }
-    
     .heading, .band-main-heading {
         padding: 5px;
         margin-left: 0px;
     }
-    
     .heading p {
         font-size: 14px;
     }
-    /*.home-page, .photos-page, .music-page, .hire-page {
-      padding-bottom: 107px;
-      /* must be same height as the footer */
-    /*}*/
-    
-    
- /*   html,
-    body {
-      height: auto;
-    }*/
-
-    
-    /*section {
-      min-height: auto;
-      /*max-height: 100%;
-    }*/
-    
-    /*.main-section, .home-page {
-        overflow: auto;
-    }*/
-    /*footer {
-        height: 107px;
-        /*margin-top: -107px;*/
-       /* position: absolute;
-        clear: both;
-        bottom:0;
-    }*/
     .video {
         padding: 15px 0 0 0px;
         margin: 0 auto;
@@ -810,19 +775,16 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
         padding: 22px 15px 0 15px;
         float: right;
     }
-  
     .footer-logo-div {
         padding-top: 0;
         padding-left: 0;
         margin-left: 0;
     }
-    
     .footer-logo {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
         height: 107px;
     }
-    
     .social-media-links li a i {
         /*font-size: 38px;*/
         padding: 10px;
@@ -830,17 +792,25 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     }
     /*---music page*/
     
-    .album {
+   .album {
         padding: 0 0;
     }
-    
+    .album-tracks {
+        margin: 10px auto;
+    }
+    .album-tracks .track {
+        margin: 0px auto;
+    }
+    .album-tracks h5 {
+        margin: 1px auto;
+    }
+    .album-details {
+        padding: 10px 10px 5px;
+    }
     .album-details .content {
         width: 400px;
         margin: 0 0;
         margin-left: 10px;
-    }
-    .album-details {
-        padding: 15px 10px 0;
     }
     .album-details .content img {
         width: 170px;
@@ -848,7 +818,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     .album-details .content h5 {
         width: auto; 
     }
-    .album-details .content h5, .album-tracks h5 {
+    .album-details .content h5{
         padding-top: 5px;
     }
     
@@ -886,35 +856,23 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
         margin-bottom: -107px;
         margin-top: -151px;
     }
-    .home-page, .home-page .main-section, .photos-page, .photos-page .main-section {
+    /*.home-page, .home-page .main-section, */.photos-page, .photos-page .main-section {
         padding-top: 151px; 
     }
     
-    /*.home-page, .home-page .main-section {
-        padding: 151px 0 0 0;
-    }
-    */.home-page, .home-page .main-section, .music-page, .music-page .main-section, .hire-page, .hire-page .main-section {
+    .home-page, .home-page .main-section, .music-page, .music-page .main-section, .hire-page, .hire-page .main-section {
         padding: 151px 0 0 0; /*padding was previously set*/
-       /* -webkit-padding-before: 300px;
-        -webkit-padding-end: 0px;
-        -webkit-padding-after: 0px;
-        -webkit-padding-start: 0px;*/
-        /*padding: 0 0;*/
-       padding-top: 151px;
+      /* padding-top: 151px;*/
     }
     .home-page, .home-page .main-section {
           min-height: 902px;
     }
     .home-page .promotions .tour-dates-list {
-        height: 100%; /**/
+        height: 100%;
     }
    .music-page, .music-page .main-section {
-          min-height: 905px;
+          min-height: 840px;
     }
-    /*.music-page .main-section {
-        padding-top: 151px;
-        margin-top: -151px;
-    }*/
     .photos-page, .photos-page .main-section {
           min-height: 700px;
     }
@@ -941,28 +899,11 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
      .hire-page, .hire-page .main-section {
           min-height: 1030px;
     }
-}
-@media (min-width: 803px) {
-     .hire-page, .hire-page .main-section {
-          min-height: 1030px;
-    }
 }*/
 
 @media (min-width: 991px) {
     
-    /*.footer-logo-div {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        margin-left: 0;
-    }*/
-    
-   /* .footer-logo {
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    
-    }*/
-    
-    .album-details {
+  /*  .album-details {
         padding: 15px 15px 0;
     }
     
@@ -972,7 +913,7 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
     
     .album-tracks {
         padding-left: 10px;
-    }
+    }*/
     
     /*photos page*/
         .next {
