@@ -94,7 +94,7 @@ header, footer {
 }
 
 .tour-dates-list, .tour-dates-list .list-group .list-group-item {
-    background-color: #E7B340;
+    background-color: #AB4B41;
 }
 .available-dates-list, .available-dates-list .list-group .list-group-item {
     background-color: #2DA267;
@@ -308,10 +308,6 @@ padding: 0 0;
 .album-tracks .track .controls {
     width: 100%;
 }
-/*.album-details {
-    width: auto;
-}*/
-
 .album-details .content {
     width: 288px;
     margin: 0 auto;
@@ -340,24 +336,32 @@ padding: 0 0;
 
 
 /*tour date list and available dates list (home and hire pages)*/
-
 .gig-availability {
     padding-left: 0px;
     padding-right: 0px;
 
 }
+
 .gig-availability .list-group {
     margin-bottom: 0px;
 }
+
+.tour-dates-list {
+    color :#ffffff;/*#5C2516;*/
+}
+
+.available-dates-list {
+    color : #5C2516;
+}
+
 .tour-dates-list, .available-dates-list {
-    color: #5C2516;
     height: 100%;
 }
 
 .list-group-item {
   /*  background-color: yellow;*/
     border: 0px solid #404040;
-    border-bottom: 2px solid #404040;
+    border-bottom: 2px solid #333 ; /* #ffffff; #404040;*/
 }
 
 .last-item {
@@ -900,26 +904,20 @@ orginally from W3 Schools, removed to add Bootstrap columns instead
           min-height: 1030px;
     }
 }*/
-
 @media (min-width: 991px) {
-    
-  /*  .album-details {
+    /*.album-details {
         padding: 15px 15px 0;
     }
-    
     .album-details .content img {
         width: 175px;
     }
-    
     .album-tracks {
         padding-left: 10px;
     }*/
-    
     /*photos page*/
-        .next {
+    .next {
         margin-right: 4%
     }
-    
 }
 
 @media (min-width: 930px) {

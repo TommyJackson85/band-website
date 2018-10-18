@@ -29,9 +29,11 @@ I used the Iron Maiden website (https://ironmaiden.com/)
 and Metallica's website (https://www.metallica.com/)
 for design and content inspiration, however I kept the design as simple possible for this website.
 
+I drew a very basic sketch of the web pages.
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In discussing the features, I will go over in detail on what is contained in the header, footer, the four pages aswell as the use of the color scheme with the features.
 
 The website will have four separate pages, (1) a home page, (2) a music page, (3) a photo page and (4) a gig hire page. Each page will have the same header and footer sections for consitency.
 
@@ -178,109 +180,115 @@ was a collection of images from initally opening the photos page.
 This was to allow the user to search through the images without closing the lightbox. 
 
 I removed this because it was making the design overtly complex for the user. I wanted to keep it as simple as possible especially considering I am using some images that are quite large.
+
 I may however bring it back for future development.
 
 #### Hire Page
 
-The hire page will be used to promote the available tour dates and will contain a simple 
-Bootstrap contact form, which requires the users email, first and last names, and a message.
+The hire page is used to promote the available tour dates. 
 
-Above the form I ask the user to include information on the date and location of an event and any other information that is relevent.
+It contains a Bootstrap contact form, which requires the user's email, first and last names, and a message.
+The message textbox's placeholder asks the user to give specific information on dates, venue, type of event and other relevent information.
+This type of information is for the band's interest and helps the booking process.
 
-I also remind the user about the up and coming tour and suggest the user refers to the available dates list when booking.
+Above the form is a paragraph of information which reminds the user about the up and coming tour and requests that the user refers to the 'dates available for booking' list when sending a message.
 
-I will have two columns that turn into an inner side bar on wider screens (the side bar is located inside the 'main-section class div' for this page). The fist column will be a list of available dates for booking gigs, 
-simular in design to the tour dates list on the home page, but will have a different colour background. 
-The second column will be a the same Tour Dates list from the homepage. Both columns use the same design patterns as the tour dates list on the home page.
+'The dates available for booking' is set in a list column simular to the list of Tour Dates on the home page. 
+The list of Tour Dates are also included on the hire-page right below the 'dates available for booking'.
 
-I added a tour dates list to this page because I felt it was related to subject of band hiring. 
-It is helpful for the user to be aware of the booked tour dates and booked locations.
+The two columns, while consistantly stacked on top of each other, 
+turn into an inner side bar on wider screens (the side bar is located inside the 'main-section class div' for this page). 
+Each column has a different background color to keep them separate.
+ 
+I added the tour dates list to this page because I felt it was related to subject of band hiring and it is helpful for the user to be aware of the booked tour dates and booked locations.
 
 ##### Future changes
 
-I might add more form inputs to the form and I might change the design of the tour and dates for hire listings.
+I might add more required form inputs to the form (i.e. locations, dates, type of events) and I might change the design of the tour and dates for hire listings.
 I will also add a pop up for when the message is sent. The only reason I didn't put it in this project is incase of potential cross platform bugs. 
 
-The following is my work in progress:
+The following is my work in progress for a pop up:
 
 <script>
-
-        var input1 = document.getElementById("exampleFormControlInput1");
-        var input2 = document.getElementById("exampleFormControlInput2");
-        var input3 = document.getElementById("exampleFormControlInput3");
-        var textarea = document.getElementById("exampleFormControlTextarea1");
-        var submitButton = document.getElementById("submitButton");
-        
-        submitButton.onclick = function(){
-            if (input1.value !== "" && input2.value !== "" && input3.value !== "" && textarea.value !== "") {
-                alert("submitted!")
-            };
-        }
+    var input1 = document.getElementById("exampleFormControlInput1");
+    var input2 = document.getElementById("exampleFormControlInput2");
+    var input3 = document.getElementById("exampleFormControlInput3");
+    var textarea = document.getElementById("exampleFormControlTextarea1");
+    var submitButton = document.getElementById("submitButton");
+    submitButton.onclick = function(){
+        if (input1.value !== "" && input2.value !== "" && input3.value !== "" && textarea.value !== "") {
+            alert("submitted!")
+        };
+    }
 </script>
 
 #### Color schemes (of all pages)
+Originally had more a variety of colors, but somebody on on Slack made a suggestion to me to use a max of three colors.
+I took his advise mostly but I decided to have more variation in colors.
 
-I first used the background color of the footer image as the backgound color for the footer.
+For secondary background colors, I chose three main colors which I used consistantly. I used Grey and Black and a dark red for most of the backgrounds.
+However I also used a dark green and a lighter red for the 'dates available for booking' and tour dates list.
+
+When I started designing the website, I first used the background color of the footer image (the black color) as the backgound color for the footer.
 The main purpose for this was to blend the image background to the footer background. 
 I then reused this color for the header background to keep the website consistant in color tone.
 
 I only use black as the background color of the footer and header to keep them distinguished from other parts of the website. The only other use of black was for the background of the lightbox in the photo section. 
-This was because it didn't use the header or footer. .
+This was because it didn't use the header or footer.
 
 On the basis of using the color black, I decided to use mostly darker colours for other parts of the website to keep it consistant in tone.
-
+This is why I used dark red and grey.
 I used a dark color red for the page links to keep them differentiated from the header background. 
 For the page link button that links to the page in use, I used a lighter red background. 
 This is to give an indication to the user where they are on the site.
 
-I used the same darker red for each page background (on larger screens) except for the Home page. 
-The 'main-section' class div on the home page doesn't have any right or left margins on small or large screens, so the background is not visable anyway.
-However I did use the darker red for the music column on the home page.
-
-For the main section (under the class 'main-section') of each page, I used a dark grey for the background color. 
+For the main section (undr the class 'main-section') of each page, I used a dark grey for the background color. 
 The use of a dark gray keeps it separate from the header and footer. 
 However the use of black and dark grey blend well together in tone.
+
+I reused the dark red (from the page links) as the background color of each page (parent div of '.main-section'),
+except for the home page because it didn't have any right or left margins.
+I set the background color of the home page to grey to keep the main section blended in with the background.
+
 Further more, the use of black, dark grey and dark colors are well suited for a metal band / heavy rock band website. 
+
+
 All three colours are the most consistently used background colour schemes of the whole website, although sometimes in darker or brighter tones.
 
-I used dark yellow and dark green as secondary background colours. 
-I used dark yellow for the tour dates list (on both the home page and hire us page) 
-and the dark green for the 'dates available for booking'.
-This distinguishes it as secondary reading material, 
-although the use of yellow and green are positive colors, which demonstrates an importance to the content.
+I reused the darker red for the song sample list on the home page and for text color of the external links.
+I reused the lighter red for the Tour Dates List background (on both the home page and hire page).
+I chose these colors for these sections because I wanted to reuse them. 
+
+However, it also made sense to use of dark red for the external links to keep them consistant with the page links color.
+
+I used the dark green for the 'dates available for booking' to add a slight variation and because green is a positive color. 
+I wanted to attract the attention of the user to this column becuase it is important information regarding bookings.
 
 For most text colour, I used the colour white. 
-This is to make it read-able for the users on the dark background colours, and to keep the text consistant with the color of the header and footer logo color's.
+This is to make it read-able for the users on the dark background colours, and to keep the text consistant with the color of the header and footer logo's color.
 The use of 'plain' white is suitable for static content.
 
-In contrast, I used a bright turquoise green colour for the track headings of audio files (on both the home and music pages.). 
-This adds importance to the text because it's associated with the interactive parts of the website.
-
-Simularily, I made all the external links bright blue. 
-This is because they are separate links to the website and I wanted them to be more distinguished from the page links dark red colouring.
-
-I used the same color for the form submision button's background color (from the hire page) to keep it distinguished.
-
-For all links and the form submission button, I made each turn bright yellow when hovered over. 
-
-The text color of the tour date list and available dates list is also dark red. 
-I used a dark red color to make the lists readable over the brighter green and yellow background colors. 
+The text color of the 'dates available for booking' list is a darker red. 
+I used a dark red color to make the lists readable over the green background. 
 The dark red color keeps the website consistant the other uses of dark red.
 
 I set the copywrite text to a dark grey because it is the least important part of the website for the user.
-However it is a bright enough color to keep it readable.
+However it is a bright enough color to keep it readable for the user.
 
-Overall, I used dark version of colors to keep a more relaxed UX experience. 
-However the sparse use of brighter versions of colors helped distinguish the interactive parts of the site from the static parts.
-For example, the tour dates lists and 'dates available for booking' list, all used shaded versions of colors because it is very static content. 
-The links and track headings, on the other hand, both used birght colors to distinguish the content as interactive and/or external to the website.
+I used a bright turquoise green colour for the track headings of audio files (on both the home and music pages.)
+This adds importance to the text because it's associated with the interactive parts of the website.
 
-I used the following link, which helped provide suitable colour schemes:
+For all links and the form submission button, I made each turn bright yellow when hovered over.
+For the page links background, I also added a timed animated transiton of color (from dark red to bright yellow). 
+This gives it a sense of importance over other links because it keeps the user on the website.
+
+I used the following link, to hel provide suitable colour schemes:
 http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF
 
 ### Features Left to implement
 
-I will add more pages website with their related page links added to the header.
+I will add more pages to the website, with their related page links added to the header.
+The following is a list of pages I intend to add:
 
 - Fan Art
 - News feed
@@ -292,64 +300,59 @@ I may also add a search bar.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- For assistance in deciding on color schemes, I used [paletton's color pallet]( http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF )
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-    -
-    - Code for lightbox, from w3schools ( link: https://www.w3schools.com/howto/howto_js_lightbox.asp ; ).
-      Upon utilizing this code, I removed the column class and column css styling, and used bootstrap column grid system instead. 
-      This was to keep the website consistant with its use of Bootstrap. I also made several changed to the styling ( see the Existing Features above).
-      W3Schools code uses images of the same size and dimensions and because my images were more varied, I had to alter both the HTML and CSS code.
-  
-### Photo's and Lightbox
+- For the photo lightbox I used [w3schools's lightbox]( link: https://www.w3schools.com/howto/howto_js_lightbox.asp ).
+  - Upon utilizing this code, I removed the column class and column css styling, and used bootstrap column grid system instead. 
+  - This was to keep the website consistant with its use of Bootstrap. 
+  - I removed the photo selections from the modal because it was adding too much page height.
+  - I made several changed to the styling ( see the Existing Features above).
 
 ## Testing
 Used the following validators to test the code:
-https://jigsaw.w3.org/css-validator/validator
-https://validator.w3.org/
+- [CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+- [HTML Validator](https://validator.w3.org/)
 
-In testing the UX, I will go over each user story.
+The following is my feedback after testing the UX on the website. 
+I will go over each user story discussed in the 'UX' section above, followed by further information on the development of this page.
 
-##### 1 -  ...watch videos (should include atleast one video clip)
+### The user should be able to...
+
+### 1 - watch videos (should include atleast one video clip)
+
 - The promotional video on the home page can be played on iPhone and iPad devices, aswell as Safari, Google Chrome and Firefox browsers.
-- The Video is wide enough for each size device and can be opened on full screen.
+- The Video is wide enough for all sizes of devices and can be opened on full screen.
 
-##### 2 - listen to the bands music
+### 2 - listen to the bands music
 
-- The sample trackes on the the home page and music page have all been tested on iPhone, iPad and large screen devices aswell as Chrome, Firefox and Safari browsers. 
-From each platform/browser the tracks can be played and paused from initial load and they do not play automaticaly.
+- The sample tracks on the the home page and music page have all been tested on iPhone, iPad and large screen devices aswell as Chrome, Firefox and Safari browsers. 
+From each platform/browser the tracks can be played and paused and from initial load of the page, they do not play automaticaly.
 
-- track titles for each audio track are provided, aswell as the name of the album in which they came from.
-- On the music page, the album cover is displayed. The user is provided with as much information as possible about the songs they are listening to.
-- External links to the bands Spotify and iTunes accounts have also been provided (see the next user story for more information) 
+- Track titles for each audio track are provided, aswell as the name of the album in which they came from.
+- On the music page, the album cover is displayed. 
+- The user is provided with as much information as possible about the songs they are listening to.
+- External links to the bands Spotify and iTunes accounts have also been provided (see the next user story for more information) .
 
+### 3 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
 
-- listen to the bands music and watch videos (should include atleast one video clip),
-- find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
-- look at photos of the band on tour and of each idividual band member.
-- see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
-
-
-##### 3 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
-
-- External links to the bands social media and other media pages are provided and can be opened to a new blank page upon clicking.
-- This has been consistantly working with Safari, Chrome and Firefox boxes, aswell as iPhone, iPad and large screen devices.
+- External links to the bands social media and other media pages are provided and can be opened on a new blank page upon clicking.
 - Listening to the bands music is the first priority of the website so the Spotify and iTunes links are provided in the header on all pages.
 - Spotify and iTunes links are also provided with each of the albums on the music page, in which they link to each album's specific Spotify and iTunes accounts.
 - The Facebook, Twitter, Instagram and YouTube external links are all found on the footer of each page.
 - All the external links change to a bright yellow collor when hovered over, telling the user they are interactive.
+- All these links and animations have been consistantly working with Safari, Chrome and Firefox browsers, aswell as iPhone, iPad and large screen devices.
 
-##### 4 - look at photos of the band on tour and of each idividual band member.
+### 4 - look at photos of the band on tour and of each idividual band member.
 - While the header shows profile picture of the whole band, the user can view more photos from the photos page.
-- Upon entering into the photos page, the user can rows of images, the same size.
+- Upon entering into the photos page, the user views rows of images the same size.
 - On large screens, user doesnt have to scroll to view them and can see all of them on full screen.
-- The user can click each image, a modal is open in which the user can see the image in its full view and can view the image in whole without having to scroll.
+- The user can click each image, in which opens up a modal where the user can see the image in its full view and can view the image in whole without having to scroll.
 - From the Modal the user can scroll through all the images through the user of 'previous' (white arow to the left) and 'next' (white arrow to the right) buttons.
-- The user can escape the modal by clicking the white 'x' button at the top right corner of the modal.
+- The user can escape the modal by clicking the white 'x' button at the top right corner of the modal. The X is easy to find because it is on the top right corner.
 - The photo's contain 5 photos of individual band members (1 for each) and 7 band tour photos.
+- Upon testing this page on Safari, Chrome and Firefox browswes, aswell as iPhone, iPad and large screen devices, I found all interactive features to be consistantly working.
 
-##### 5 - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
+### 5 - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
 
 - A list of tour dates are provided on the home page and hire page.
 - A list of dates available for booking (around specific areas) can be seen on the Hire page.
@@ -363,13 +366,36 @@ From each platform/browser the tracks can be played and paused from initial load
 - If a field is missing, the form indicates to the user of any missing fields without refreshing, through Bootstrap's form validation.
 - All the functionality works on all browsers and devices.
 
-##### other information on user support
+### other information on user support
 
 - The header also contains 4 page links to navigate the website. 
 - They are for the Home Page, the Music Page, the Photos Page and Hire Page.
-- This helps the users find their way around the website without getting lost. 
+- After testing the these links, I found them to be the most efficient way to navigate the webpage because they are consistantly there when the page loads.
 - These links have been tested on iPhone, iPad and large screen devices aswell as Firefox, Chrome and Safari browsers and have been found to have no errors.
 - Uppon hovering over these links they turn to a bright yellow color indicating to the user that they are interactive.
+
+### testing for warnings and errors
+- I tested each page on each browser, for warnings and errors through the browser's console.
+- I found one error in the Firefox browser. 
+After searching the error it indicated to me that I had to add this meta tag to the head: '<meta charset="utf-8"/>'
+
+### the ways I tested the website
+
+- I consistantly tested the page in developemt for Chrome. 
+- After each GitHub commit, I would test the hosted website on Chrome.
+- I uploaded my website on Slack for other users to test it multiple times. 
+- I also sent it to my mentor a few times for testing.
+- I took their recommedations onboard and made changes to fix the problems as much as I could.
+For example, a user told me that on large screens that there was white space space below the footer. 
+I fixed this immediately by using '100vh' for page heights and having the section and '.main-section' lay under the header and footer on large screens ( through the use of padding and margin changes). 
+- After I felt confident with the project, I tested it out on Safari, Chrome and Firefox all together.
+Unfortunately, I had to compensate some of my design decisions to make it work on all browsers and devices.
+This was particularily in relation to image/link sizes, page heights and div padding/margins.
+
+
+- Unfortunately I could't test the webpage on Internet Explorer because it is not available for Macbook.
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing 
 to legitimately believe that the site works well. 
@@ -393,25 +419,22 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
+- I first set up a GitHub repository on my GitHub account. I named it 'band-website'.
+- After my first stage of developing my website on Cloud9, I deployed it to the GitHub repository.
+- I first pushed my index page and css file, and then added more files later.
+- I then set up GitHub as a master branch, allowing it to be used as a GiHub page.
+- the webpage is now hosted on this [link:](https://tommyjackson85.github.io/band-website/)
+- I still have the website hosted in development under my C9 account: tommyjackson85 
+- The difference being, it is not hosted publically, like it is in Github. The public version (the Github page) can also contain errors due to security. 
+This can happen with sensitive information, such as third hand API's. This is why I re-tested the webpage from GitHub pages.
 
+TO BE DELETED LATER:
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
 - Separate git branch?
-
-I developed the project on Cloud9 and ran it through production on GitHub and hosted it on GitHub pages.
-
-
-I first deployed the home page and CSS file together, after building the Header and Footer while I was developing them at the same time.
-
-Then I copied and pasted the header and footer content on to the remaining three pages and deployed this as my second comit.
-
-Then I built each page and commited the project after each build. 
-
-I ran the project locally through Cloud9. 
 
 ## Credits
 
@@ -419,7 +442,7 @@ I ran the project locally through Cloud9.
 
 ### Content
 
-- The text from the Home Page was copied and edited from the [Wikipedia article The Scorpions](https://en.wikipedia.org/wiki/Scorpions_(band))
+- The text from the Home Page was copied and edited from the [a Wikipedia article on The Scorpions:](https://en.wikipedia.org/wiki/Scorpions_(band))
 
 ### Media
 
@@ -435,81 +458,85 @@ music credits:
 - Artist: Maeth;
   audio tracks: Maeth_-_01_-_Everything_is_an_orchid.mp3; Maeth_-_03_-_but_I_am_shafts_of_light.mp3;
   (all tracks came from the Free Music Archive and are used for non profit and educational purposes.
-  website: https://freemusicarchive.org/genre/Psych-Rock/ )
+  [website:](https://freemusicarchive.org/genre/Psych-Rock/) )
 
 Photo credits: 
 - album1982.jpg
 - album1984.jpg
 - album2015.jpg
  ( copywrite credit: The Scorpions 
-   link: https://www.the-scorpions.com/album/)
+   [link:](https://www.the-scorpions.com/album/)
+)
 
 - crazy-world-tour2017.jpg  
   (copywrite credit: Claypaky twitter account @ClayPakyNews.
-    link: https://twitter.com/ClayPakyNews/status/956184655019028480  )
+    [link:](https://twitter.com/ClayPakyNews/status/956184655019028480)  )
 
 - klaus-meine.jpg 
   ( copywrite credit: Source: Ethan Miller/Getty Images North America ; secondary resource: Zimbio;
-    link: http://www.zimbio.com/photos/Klaus+Meine/Scorpions+Cinderella+Perform+Thomas+Mack+Center/Wr5wBuxvmI7 )
+    [link:](http://www.zimbio.com/photos/Klaus+Meine/Scorpions+Cinderella+Perform+Thomas+Mack+Center/Wr5wBuxvmI7) )
 
 - matthias-jabs.jpg 
   (copywrite credit: https://www.gettyimages.ca/photos/matthias-jabs?page=10&sort=mostpopular&phrase=matthias%20jabs&family=editorial ;
-   link: https://www.gettyimages.ca/photos/matthias-jabs?page=9&sort=mostpopular&mediatype=photography&phrase=matthias%20jabs ;)
+   [link:](https://www.gettyimages.ca/photos/matthias-jabs?page=9&sort=mostpopular&mediatype=photography&phrase=matthias%20jabs) ;)
 
 - melbourne-2016.jpg
   (copywrite: Silver Tiger Media and Roger Brooks Photography;
-   link: http://silvertigermedia.com.au/2016/10/scorpions-the-palais-theatre-melbourne-18102016/ ;)
+   [link: ](http://silvertigermedia.com.au/2016/10/scorpions-the-palais-theatre-melbourne-18102016/) )
 
 - mikkey-dee.jpg
   ( copywrite: Metal-Hammer; Photo credit: Sarah Fleischer (www.sarahfleischer.de);
-    link: https://www.metal-hammer.de/scorpions-rekrutieren-motoerhead-schlagzeuger-mikkey-dee-616125/ ;)
+    [link:](https://www.metal-hammer.de/scorpions-rekrutieren-motoerhead-schlagzeuger-mikkey-dee-616125/) ;)
 
 - pawel-maciwoda.jpg
   ( copywrite: Zimbio;  Photo credit: Ethan Miller/Getty Images North America ;
-    link: http://www.zimbio.com/photos/Pawel+Maciwoda/Scorpions+Cinderella+Perform+Thomas+Mack+Center/2rKKSgji6PO ;)
+    [link:](http://www.zimbio.com/photos/Pawel+Maciwoda/Scorpions+Cinderella+Perform+Thomas+Mack+Center/2rKKSgji6PO) ;)
 
 - rudolf-schenker.jpg
   ( copywrite: Getty Images and Apollo ;
-    link: https://www.photos.com/pictures/rudolf-schenker ;)
+    [link:](https://www.photos.com/pictures/rudolf-schenker) ;)
 
 - scoripions-logo3.jpg
  ( copywrite: Teepublic and Scorpions ;
-   link: https://www.teepublic.com/t-shirt/1167478-scorpions-logo ;
+   [link:](https://www.teepublic.com/t-shirt/1167478-scorpions-logo) ;
   )
 
 - scorpions-name.png 
   ( copywite: The Scorpions - Backstreet Merch and The Scorpions ; 
-    link: https://the-scorpions.backstreetmerch.com/ ; )
+    [link:](https://the-scorpions.backstreetmerch.com/) ; )
 
 - scorpions-on-tour.jpg 
   ( copywrite:  Romanian Insider;
-    link: https://www.romania-insider.com/scorpions-bucharest-world-tour/ ;)
+    [link:](https://www.romania-insider.com/scorpions-bucharest-world-tour/) ;)
 
 - scorpions-on-tour2.jpg
   (copywrite: ImgCop ;
-    link:https://imgcop.com/img/Scorpions-Band-1684375/  ;  
+    [link:](https://imgcop.com/img/Scorpions-Band-1684375/)  ;  
   )
 
 - scorpions-on-tour3.jpg 
   ( copywrite: U Discover Music;
-    link: https://www.udiscovermusic.com/news/scorpions-longevity-not-oldies-band/ ;
+    [link:](https://www.udiscovermusic.com/news/scorpions-longevity-not-oldies-band/) ;
   )
 
 - scorpions-on-tour4.png
   ( copywrite: The Nokia Theatre at L.A. Live on July 31, 2010 ;
-    link: http://www.zimbio.com/pictures/_2BQwOKq7Cb/Scorpions+Cinderella+Performs+Nokia+Theatre/_M4n_eNuLvO/Matthias+Jabs ;
+    [link:](http://www.zimbio.com/pictures/_2BQwOKq7Cb/Scorpions+Cinderella+Performs+Nokia+Theatre/_M4n_eNuLvO/Matthias+Jabs) ;
   )
 
 - scorpions-on-tour5.jpg
   ( copywrite: Rock Music Timeline;
-    link: http://www.rockmusictimeline.com/1991gallery.html ;
+    [link:](http://www.rockmusictimeline.com/1991gallery.html) ;
   )
 
 - scorpions1.jpg
   ( copywite: Getty Images, The Scorpions ;
-    link: https://www.gettyimages.ie/detail/news-photo/german-rock-band-the-scorpions-poses-for-a-portrait-in-1992-news-photo/494470885 ;
+    [link:](https://www.gettyimages.ie/detail/news-photo/german-rock-band-the-scorpions-poses-for-a-portrait-in-1992-news-photo/494470885) ;
   )
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from 
+- the [Iron Maiden website](https://ironmaiden.com/) and the [Metallica website](https://ironmaiden.com/), however I also received inspiration from a broad range of band websites.
+
+
