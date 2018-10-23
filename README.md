@@ -1,18 +1,34 @@
 # Band-Website
 
 This website is for fans and new fans of the band Scorpions. 
-It will be designed to engage fans into listening to the bands music and potentially purchase the bands music on their iTunes and spotify accounts.
-Fans will also be allowed view the band photos, check their tour schedule and be able to contact them in order to organise gigs.
+It will be designed to engage fans into listening to the bands music 
+and potentially purchase the bands music on their iTunes and spotify accounts.
+Fans will also be allowed view the band photos, 
+check their tour schedule and be able to contact them 
+in order to organise gigs.
 
 The website will allow fans to find most information and content on the Scorpions. 
-The initially home page will be used to promote the bands music and tour schedule but will also have a brief description of the band to engage new fans. 
-There will then be individual pages, for the bands content and other uses. There will be a photos page for their photo collection, a music page for their music catalogue and a hire page to allow the user to contact the band for hire.
-The website will also be used to promote their social media pages, through the use of external links.
-There will be links to the bands iTunes and Spotify accounts on the header of each page, and Facebook, Twitter, Instagram and YouTube links in the footer of each page.
+The initially home page will be used to promote the bands music 
+and tour schedule but will also have a brief description of the band to engage new fans. 
+There will then be individual pages, for the band's content and other uses. 
+There will be a photos page for their photo collection, 
+a music page for their music catalogue and 
+a hire page to allow the user to contact the band for hire.
+The website will also be used to promote their social media pages, 
+through the use of external links.
+There will be links to the bands iTunes and Spotify accounts 
+on the header of each page, 
+and Facebook, Twitter, Instagram and YouTube links 
+on the footer of each page.
 The website will initially have four pages. 
-It will have a home page which will contain promotions and a brief description of the band.
-The promotions will include a tour promotional video, tour dates and sample songs from their latest album. 
-There will also be a music page containing songs from three of their albums, a photo page containing multiple photos to view in full, and a hire page where the user can contact the band directly to hire them for gigs.
+It will have a home page which will contain promotions 
+and a brief description of the band.
+The promotions will include a tour promotional video, 
+tour dates and sample songs from their latest album. 
+There will also be a music page containing songs from three of their albums, 
+a photo page containing multiple photos to view in full, 
+and a hire page where the user can contact the band directly 
+to hire them for gigs.
 
 
 ## UX
@@ -22,14 +38,24 @@ As a user, I want to use the website to:
 - listen to the bands music and watch videos (should include atleast one video clip),
 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
 - look at photos of the band on tour and of each idividual band member.
-- see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
+- see the bands tour dates and 'availability for booking' and are able to contact the band to organise gigs.
 
-Wireframes, mockups, diagrams
-I used the Iron Maiden website (https://ironmaiden.com/)
-and Metallica's website (https://www.metallica.com/)
-for design and content inspiration, however I kept the design as simple possible for this website.
+Prior to beginning the project, I first drew a very basic wireframe for the web page.
+Here are the sketches I drew:
 
-I drew a very basic sketch of the web pages.
+- [Wireframe 1](https://raw.githubusercontent.com/TommyJackson85/band-website/master/assets/images/wireframe1.JPG)
+- [Wireframe 2](https://raw.githubusercontent.com/TommyJackson85/band-website/master/assets/images/wireframe2.JPG)
+- [Wireframe 3](https://raw.githubusercontent.com/TommyJackson85/band-website/master/assets/images/wireframe3.JPG)
+- [Wireframe 4](https://raw.githubusercontent.com/TommyJackson85/band-website/master/assets/images/wireframe4.JPG)
+
+I designed the wireframes to full fill the user stories. However, during development I made many changes to what was initially planned.
+This was because I wanted to keep it as simple as possible, and because some of my design plans didn't work out as well as I wanted.
+
+Furthermore, I decided to go for a [lightbox wireframe](https://www.w3schools.com/howto/howto_js_lightbox.asp) for the photos page.
+
+While developing the project, I used the [Iron Maiden website](https://ironmaiden.com/)
+and [Metallica's website](https://www.metallica.com/)
+for further design and content inspiration,  however I kept the design as simple possible for this website.
 
 ## Features
 
@@ -45,7 +71,6 @@ The website will have four separate pages, (1) a home page, (2) a music page, (3
 
 - The gig hire page will have a contact form and will contain a list of scheduled gigs and dates of availability for hire. This allows user to have a clear understanding of where the band will be playing and where they will be available for gigs.
 
- 
 ### Existing Features
 
 #### Header and Footer
@@ -80,11 +105,8 @@ In general, having external links on the footer and header will allow the user t
 
 ##### Future changes
 
-In the future, I might add more pages to the website, which means I will add more page links to the header.
-With this in mind. I might have to remove the band image from the header to allow more space for page links.
-
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- I might add more pages to the website, which means I will add more page links to the header.
+- With this in mind. I might have to remove the band image from the header to allow more space for page links.
 
 #### Home Page
 
@@ -135,11 +157,12 @@ The other two albums will be two of their classic albums from the 80's.
 I took inspiration from other bands Discography pages on their website, particularly on how they display the album cover picture and details.
 
 ##### Future changes
+
 I will consider putting all of their albums on for display, in which the initial music page will just display all the album cover images, aligned next to each other. Each link will link to a new page, that displays the albums full track listings and full production credits. From here the user will be able to read each song's lyrics. 
 I may also add more sample tracks for each album, however I will still have links to the album's Spotify and iTunes accounts.
 This building process will require a more complex UI wireframe, so I will add links to each albums page that will give the user the option to return to the full album listing and home page. I may also include the same header or footer for consistency.
 
-Many band websites used this type of wireframe, [for example: ](https://ironmaiden.com/discography/studio-albums)
+Many band websites used this type of wireframe, Iron Maiden's [studio albums page.](https://ironmaiden.com/discography/studio-albums)
 
 #### Photos Page
 
@@ -161,11 +184,11 @@ This was important because all the images vary in dimensions and sizes. The cons
 doesn't move the remaining page content around (i.e. outside the parent div) because the the enlarged image's parent div remains the same in size.
 
 This makes for a good user experience and does not cause confusion.
-
+  
 There is also an x button on the top incase the user wants to go back to the main page, where they can navigate through the website again.
 
 I chose to use the lightbox system because it is commonly used on many websites, 
-for example: https://ironmaiden.com/gallery
+Iron Maiden's [gallery page.](https://ironmaiden.com/gallery)
 
 
 For further information on the technology of the lightbox please view the Technologies Used section below.
@@ -282,8 +305,7 @@ For all links and the form submission button, I made each turn bright yellow whe
 For the page links background, I also added a timed animated transiton of color (from dark red to bright yellow). 
 This gives it a sense of importance over other links because it keeps the user on the website.
 
-I used the following link, to hel provide suitable colour schemes:
-http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF
+To help me provide suitable colour schemes, I used [paletton's color pallet.](http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF)
 
 ### Features Left to implement
 
@@ -299,10 +321,8 @@ The following is a list of pages I intend to add:
 I may also add a search bar.
 
 ## Technologies Used
-
-- For assistance in deciding on color schemes, I used [paletton's color pallet]( http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF )
-
-- For the photo lightbox I used [w3schools's lightbox]( link: https://www.w3schools.com/howto/howto_js_lightbox.asp ).
+- For assistance in deciding on color schemes, I used [paletton's color pallet.](http://paletton.com/#uid=33y0J0kllllaFw0g0qFqFg0w0aF)
+- For the photo lightbox I used [w3schools's lightbox](https://www.w3schools.com/howto/howto_js_lightbox.asp).
   - Upon utilizing this code, I removed the column class and column css styling, and used bootstrap column grid system instead. 
   - This was to keep the website consistant with its use of Bootstrap. 
   - I removed the photo selections from the modal because it was adding too much page height.
@@ -310,7 +330,7 @@ I may also add a search bar.
 
 ## Testing
 Used the following validators to test the code:
-- [CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
 - [HTML Validator](https://validator.w3.org/)
 
 The following is my feedback after testing the UX on the website. 
@@ -320,12 +340,12 @@ I will go over each user story discussed in the 'UX' section above, followed by 
 
 ### 1 - watch videos (should include atleast one video clip)
 
-- The promotional video on the home page can be played on iPhone and iPad devices, aswell as Safari, Google Chrome and Firefox browsers.
+- The promotional video on the home page (index.html) can be played on iPhone and iPad devices, aswell as Safari, Google Chrome and Firefox browsers.
 - The Video is wide enough for all sizes of devices and can be opened on full screen.
 
 ### 2 - listen to the bands music
 
-- The sample tracks on the the home page and music page have all been tested on iPhone, iPad and large screen devices aswell as Chrome, Firefox and Safari browsers. 
+- The sample tracks on the the home page (index.html) and music page (music.html) have all been tested on iPhone, iPad and large screen devices aswell as Chrome, Firefox and Safari browsers. 
 From each platform/browser the tracks can be played and paused and from initial load of the page, they do not play automaticaly.
 
 - Track titles for each audio track are provided, aswell as the name of the album in which they came from.
@@ -336,14 +356,15 @@ From each platform/browser the tracks can be played and paused and from initial 
 ### 3 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
 
 - External links to the bands social media and other media pages are provided and can be opened on a new blank page upon clicking.
-- Listening to the bands music is the first priority of the website so the Spotify and iTunes links are provided in the header on all pages.
-- Spotify and iTunes links are also provided with each of the albums on the music page, in which they link to each album's specific Spotify and iTunes accounts.
+- Listening to the bands music is the first priority of the website so the Spotify and iTunes links are provided in the header on all four pages(index.html ; hire.html ; photos.html ; music.html ).
+- Spotify and iTunes links are also provided with each of the albums on the music page (music.html), in which they link to each album's specific Spotify and iTunes accounts.
 - The Facebook, Twitter, Instagram and YouTube external links are all found on the footer of each page.
 - All the external links change to a bright yellow collor when hovered over, telling the user they are interactive.
 - All these links and animations have been consistantly working with Safari, Chrome and Firefox browsers, aswell as iPhone, iPad and large screen devices.
 
 ### 4 - look at photos of the band on tour and of each idividual band member.
-- While the header shows profile picture of the whole band, the user can view more photos from the photos page.
+- While the header shows profile picture of the whole band, the user can view more photos from 
+the photos page (photos.html).
 - Upon entering into the photos page, the user views rows of images the same size.
 - On large screens, user doesnt have to scroll to view them and can see all of them on full screen.
 - The user can click each image, in which opens up a modal where the user can see the image in its full view and can view the image in whole without having to scroll.
@@ -354,7 +375,7 @@ From each platform/browser the tracks can be played and paused and from initial 
 
 ### 5 - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
 
-- A list of tour dates are provided on the home page and hire page.
+- A list of tour dates are provided on the home page (index.html) and hire page (hire.html).
 - A list of dates available for booking (around specific areas) can be seen on the Hire page.
 - Both lists, provide the user of an idea of the bands locations for booking. 
 - A paragraph promoting the bands up and coming tour can be seen above the form.
@@ -369,7 +390,7 @@ From each platform/browser the tracks can be played and paused and from initial 
 ### other information on user support
 
 - The header also contains 4 page links to navigate the website. 
-- They are for the Home Page, the Music Page, the Photos Page and Hire Page.
+- They are for all all pages( index.html ; music.html ; photos.html ; and hire.html ).
 - After testing the these links, I found them to be the most efficient way to navigate the webpage because they are consistantly there when the page loads.
 - These links have been tested on iPhone, iPad and large screen devices aswell as Firefox, Chrome and Safari browsers and have been found to have no errors.
 - Uppon hovering over these links they turn to a bright yellow color indicating to the user that they are interactive.
@@ -392,10 +413,11 @@ I fixed this immediately by using '100vh' for page heights and having the sectio
 Unfortunately, I had to compensate some of my design decisions to make it work on all browsers and devices.
 This was particularily in relation to image/link sizes, page heights and div padding/margins.
 
-
-- Unfortunately I could't test the webpage on Internet Explorer because it is not available for Macbook.
-
-
+### errors and warnings encountered
+ - Upon testing the webpage on Firefox, I came accross the following error: 
+ "The character encoding of the HTML document was not declared. The document will render with garbled text in some browser configurations if the document contains characters from outside the US-ASCII range. The character encoding of the page must be declared in the document or in the transfer protocol."
+ - After searching this error online, I discovered I needed to attach this meta tag to the head of each page: ' <meta charset="utf-8"/> '
+- After attaching it, the error dissapeared.
 
 In this section, you need to convince the assessor that you have conducted enough testing 
 to legitimately believe that the site works well. 
@@ -415,128 +437,102 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ## Deployment
 
 - I first set up a GitHub repository on my GitHub account. I named it 'band-website'.
 - After my first stage of developing my website on Cloud9, I deployed it to the GitHub repository.
 - I first pushed my index page and css file, and then added more files later.
 - I then set up GitHub as a master branch, allowing it to be used as a GiHub page.
-- the webpage is now hosted on this [link:](https://tommyjackson85.github.io/band-website/)
+- the webpage is now hosted on [a GitHub page.](https://tommyjackson85.github.io/band-website/)
 - I still have the website hosted in development under my C9 account: tommyjackson85 
 - The difference being, it is not hosted publically, like it is in Github. The public version (the Github page) can also contain errors due to security. 
 This can happen with sensitive information, such as third hand API's. This is why I re-tested the webpage from GitHub pages.
 
-TO BE DELETED LATER:
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
 ## Credits
 
-
+- All copywrite credits go to the Scorpions and other media pages (see the Media section).
 
 ### Content
 
-- The text from the Home Page was copied and edited from the [a Wikipedia article on The Scorpions:](https://en.wikipedia.org/wiki/Scorpions_(band))
+- The text from the Home Page was copied and edited from [a Wikipedia article on The Scorpions.](https://en.wikipedia.org/wiki/Scorpions_(band))
 
 ### Media
 
-promotional video 
-- The video on the Home page came from the [The Scorpions YouTube](https://www.youtube.com/watch?v=UpOx-qk2yio)
+#### promotional video 
+- The video on the Home page came from the [Scorpions YouTube Channel.](https://www.youtube.com/watch?v=UpOx-qk2yio)
 
 
-music credits:
+#### music credits:
 - Artist: Dark Meat;
   audio tracks: Dark_Meat_-_05_-_Last_of_the_Frontiersmen.mp3; Dark_Meat_-_07_-_Flaps.mp3;
 - Artist: eddy;
   audio tracks: eddy_-_03_-_All_The_Way_Up.mp3; eddy_-_04_-_Machinery.mp3;
 - Artist: Maeth;
   audio tracks: Maeth_-_01_-_Everything_is_an_orchid.mp3; Maeth_-_03_-_but_I_am_shafts_of_light.mp3;
-  (all tracks came from the Free Music Archive and are used for non profit and educational purposes.
-  [website:](https://freemusicarchive.org/genre/Psych-Rock/) )
+  (all tracks came from the Free Music Archive and are used for non profit and educational purposes;
+  [Website: Free Music Archive.](https://freemusicarchive.org/genre/Psych-Rock/) )
 
-Photo credits: 
+#### Photo credits: 
 - album1982.jpg
 - album1984.jpg
 - album2015.jpg
- ( copywrite credit: The Scorpions 
-   [link:](https://www.the-scorpions.com/album/)
+ ( [copywrite: The Scorpions.](https://www.the-scorpions.com/album/)
 )
 
 - crazy-world-tour2017.jpg  
-  (copywrite credit: Claypaky twitter account @ClayPakyNews.
-    [link:](https://twitter.com/ClayPakyNews/status/956184655019028480)  )
+  ([copywrite: Claypaky twitter account @ClayPakyNews.](https://twitter.com/ClayPakyNews/status/956184655019028480)  )
 
 - klaus-meine.jpg 
-  ( copywrite credit: Source: Ethan Miller/Getty Images North America ; secondary resource: Zimbio;
-    [link:](http://www.zimbio.com/photos/Klaus+Meine/Scorpions+Cinderella+Perform+Thomas+Mack+Center/Wr5wBuxvmI7) )
+  ( [copywrite: source: Ethan Miller/Getty Images North America; secondary resource: Zimbio;](http://www.zimbio.com/photos/Klaus+Meine/Scorpions+Cinderella+Perform+Thomas+Mack+Center/Wr5wBuxvmI7) )
 
 - matthias-jabs.jpg 
-  (copywrite credit: https://www.gettyimages.ca/photos/matthias-jabs?page=10&sort=mostpopular&phrase=matthias%20jabs&family=editorial ;
-   [link:](https://www.gettyimages.ca/photos/matthias-jabs?page=9&sort=mostpopular&mediatype=photography&phrase=matthias%20jabs) ;)
+  ([copywrite: https://www.gettyimages.ca/photos/matthias-jabs?page=10&sort=mostpopular&phrase=matthias%20jabs&family=editorial.](https://www.gettyimages.ca/photos/matthias-jabs?page=9&sort=mostpopular&mediatype=photography&phrase=matthias%20jabs))
 
 - melbourne-2016.jpg
-  (copywrite: Silver Tiger Media and Roger Brooks Photography;
-   [link: ](http://silvertigermedia.com.au/2016/10/scorpions-the-palais-theatre-melbourne-18102016/) )
+  ([copywrite: Silver Tiger Media and Roger Brooks Photography;](http://silvertigermedia.com.au/2016/10/scorpions-the-palais-theatre-melbourne-18102016/) )
 
 - mikkey-dee.jpg
-  ( copywrite: Metal-Hammer; Photo credit: Sarah Fleischer (www.sarahfleischer.de);
-    [link:](https://www.metal-hammer.de/scorpions-rekrutieren-motoerhead-schlagzeuger-mikkey-dee-616125/) ;)
+  ( [copywrite: Metal-Hammer; Photo credit: Sarah Fleischer (www.sarahfleischer.de).](https://www.metal-hammer.de/scorpions-rekrutieren-motoerhead-schlagzeuger-mikkey-dee-616125/) )
 
 - pawel-maciwoda.jpg
-  ( copywrite: Zimbio;  Photo credit: Ethan Miller/Getty Images North America ;
-    [link:](http://www.zimbio.com/photos/Pawel+Maciwoda/Scorpions+Cinderella+Perform+Thomas+Mack+Center/2rKKSgji6PO) ;)
+  ( [copywrite: Zimbio;  Photo credit: Ethan Miller/Getty Images North America ;](http://www.zimbio.com/photos/Pawel+Maciwoda/Scorpions+Cinderella+Perform+Thomas+Mack+Center/2rKKSgji6PO) ;)
 
 - rudolf-schenker.jpg
-  ( copywrite: Getty Images and Apollo ;
-    [link:](https://www.photos.com/pictures/rudolf-schenker) ;)
+  ( [copywrite: Getty Images and Apollo ;](https://www.photos.com/pictures/rudolf-schenker) ;)
 
 - scoripions-logo3.jpg
- ( copywrite: Teepublic and Scorpions ;
-   [link:](https://www.teepublic.com/t-shirt/1167478-scorpions-logo) ;
+ ( [copywrite: Teepublic and Scorpions ;](https://www.teepublic.com/t-shirt/1167478-scorpions-logo) ;
   )
 
 - scorpions-name.png 
-  ( copywite: The Scorpions - Backstreet Merch and The Scorpions ; 
-    [link:](https://the-scorpions.backstreetmerch.com/) ; )
+  ( [copywite: The Scorpions - Backstreet Merch and The Scorpions;](https://the-scorpions.backstreetmerch.com/) ; )
 
 - scorpions-on-tour.jpg 
-  ( copywrite:  Romanian Insider;
-    [link:](https://www.romania-insider.com/scorpions-bucharest-world-tour/) ;)
+  ( [copywrite:  Romanian Insider;](https://www.romania-insider.com/scorpions-bucharest-world-tour/) ;)
 
 - scorpions-on-tour2.jpg
-  (copywrite: ImgCop ;
-    [link:](https://imgcop.com/img/Scorpions-Band-1684375/)  ;  
+  ([copywrite: ImgCop;](https://imgcop.com/img/Scorpions-Band-1684375/)  ;  
   )
 
 - scorpions-on-tour3.jpg 
-  ( copywrite: U Discover Music;
-    [link:](https://www.udiscovermusic.com/news/scorpions-longevity-not-oldies-band/) ;
+  ( [copywrite: U Discover Music;](https://www.udiscovermusic.com/news/scorpions-longevity-not-oldies-band/) ;
   )
 
 - scorpions-on-tour4.png
-  ( copywrite: The Nokia Theatre at L.A. Live on July 31, 2010 ;
-    [link:](http://www.zimbio.com/pictures/_2BQwOKq7Cb/Scorpions+Cinderella+Performs+Nokia+Theatre/_M4n_eNuLvO/Matthias+Jabs) ;
+  ( [copywrite: The Nokia Theatre at L.A. Live on July 31, 2010;](http://www.zimbio.com/pictures/_2BQwOKq7Cb/Scorpions+Cinderella+Performs+Nokia+Theatre/_M4n_eNuLvO/Matthias+Jabs) ;
   )
 
 - scorpions-on-tour5.jpg
-  ( copywrite: Rock Music Timeline;
-    [link:](http://www.rockmusictimeline.com/1991gallery.html) ;
+  ( [copywrite: Rock Music Timeline;](http://www.rockmusictimeline.com/1991gallery.html) ;
   )
 
 - scorpions1.jpg
-  ( copywite: Getty Images, The Scorpions ;
-    [link:](https://www.gettyimages.ie/detail/news-photo/german-rock-band-the-scorpions-poses-for-a-portrait-in-1992-news-photo/494470885) ;
+  ( [copywite: Getty Images, The Scorpions;](https://www.gettyimages.ie/detail/news-photo/german-rock-band-the-scorpions-poses-for-a-portrait-in-1992-news-photo/494470885) ;
   )
 
 ### Acknowledgements
 
 - I received inspiration for this project from 
-- the [Iron Maiden website](https://ironmaiden.com/) and the [Metallica website](https://ironmaiden.com/), however I also received inspiration from a broad range of band websites.
+- the [Iron Maiden website](https://ironmaiden.com/) and the [Metallica website](https://www.metallica.com/), however I also received inspiration from a broad range of band websites.
 
 
