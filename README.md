@@ -111,9 +111,9 @@ In general, having external links on the footer and header will allow the user t
 #### Home Page
 
 The home page page consists of three columns: 
-- (a) A promotion of two songs from their latest album
-- (b) A list of tour dates 
-- (c) A main section (class-"main-section") which is largest part of the page and will have varied content.
+- ( a ) A promotion of two songs from their latest album
+- ( b ) A list of tour dates 
+- ( c ) A main section (class-"main-section") which is largest part of the page and will have varied content.
 
 (a) and (b) are stacked on top of each other. 
 On small screens they are below the main section but on larger screens they are pushed to the right as a side bar.
@@ -329,21 +329,26 @@ I may also add a search bar.
   - I made several changed to the styling ( see the Existing Features above).
 
 ## Testing
+
+### Automation testing
+
 Used the following validators to test the code:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 - [HTML Validator](https://validator.w3.org/)
 
+### UX user stories
+
 The following is my feedback after testing the UX on the website. 
 I will go over each user story discussed in the 'UX' section above, followed by further information on the development of this page.
 
-### The user should be able to...
+#### The user should be able to...
 
-### 1 - watch videos (should include atleast one video clip)
+#### 1 - watch videos (should include atleast one video clip)
 
 - The promotional video on the home page (index.html) can be played on iPhone and iPad devices, aswell as Safari, Google Chrome and Firefox browsers.
 - The Video is wide enough for all sizes of devices and can be opened on full screen.
 
-### 2 - listen to the bands music
+#### 2 - listen to the bands music
 
 - The sample tracks on the the home page (index.html) and music page (music.html) have all been tested on iPhone, iPad and large screen devices aswell as Chrome, Firefox and Safari browsers. 
 From each platform/browser the tracks can be played and paused and from initial load of the page, they do not play automaticaly.
@@ -353,7 +358,7 @@ From each platform/browser the tracks can be played and paused and from initial 
 - The user is provided with as much information as possible about the songs they are listening to.
 - External links to the bands Spotify and iTunes accounts have also been provided (see the next user story for more information) .
 
-### 3 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
+#### 3 - find links to their social media and other media pages (i.e. YouTube, Facebook, Twitter, Instagram, iTunes, Spotify).
 
 - External links to the bands social media and other media pages are provided and can be opened on a new blank page upon clicking.
 - Listening to the bands music is the first priority of the website so the Spotify and iTunes links are provided in the header on all four pages(index.html ; hire.html ; photos.html ; music.html ).
@@ -362,7 +367,7 @@ From each platform/browser the tracks can be played and paused and from initial 
 - All the external links change to a bright yellow collor when hovered over, telling the user they are interactive.
 - All these links and animations have been consistantly working with Safari, Chrome and Firefox browsers, aswell as iPhone, iPad and large screen devices.
 
-### 4 - look at photos of the band on tour and of each idividual band member.
+#### 4 - look at photos of the band on tour and of each idividual band member.
 - While the header shows profile picture of the whole band, the user can view more photos from 
 the photos page (photos.html).
 - Upon entering into the photos page, the user views rows of images the same size.
@@ -373,7 +378,7 @@ the photos page (photos.html).
 - The photo's contain 5 photos of individual band members (1 for each) and 7 band tour photos.
 - Upon testing this page on Safari, Chrome and Firefox browswes, aswell as iPhone, iPad and large screen devices, I found all interactive features to be consistantly working.
 
-### 5 - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
+#### 5 - see the bands tour dates, and availability for booking and are able to contact the band to organise gigs.
 
 - A list of tour dates are provided on the home page (index.html) and hire page (hire.html).
 - A list of dates available for booking (around specific areas) can be seen on the Hire page.
@@ -387,7 +392,7 @@ the photos page (photos.html).
 - If a field is missing, the form indicates to the user of any missing fields without refreshing, through Bootstrap's form validation.
 - All the functionality works on all browsers and devices.
 
-### other information on user support
+### Other information on user support
 
 - The header also contains 4 page links to navigate the website. 
 - They are for all all pages( index.html ; music.html ; photos.html ; and hire.html ).
@@ -395,12 +400,28 @@ the photos page (photos.html).
 - These links have been tested on iPhone, iPad and large screen devices aswell as Firefox, Chrome and Safari browsers and have been found to have no errors.
 - Uppon hovering over these links they turn to a bright yellow color indicating to the user that they are interactive.
 
-### testing for warnings and errors
+### Testing on different screen sizes
+
+- All pages (index.html, music.html, photos.html, hire.html) have been tested.
+
+#### Small screens
+- All columns and content are stacked on top of each other, and are consistantly to the user when scrolling.
+- The header and footer don't cover over any important content and there is no margin or padding issues related to them.
+
+#### Large screens 
+- On wider screens, the content is more spread out, with more columns/content aligned next to each other.
+- Content is also not too spread out, as I utilised the Bootstrap offset classes (on the largest screen sizes) for the main section.
+- All content is atleast partially visible on a full computer screen.
+- Content at the bottom of the screen can be seen in full once the user scrolls to the bottom.
+- The photos page(photos.html) was the only page where I was able to get rid of the schroll bar so all content is visible at  full computer screen.
+- The header and footer don't cover over any important content and there is no margin or padding issues related to them.
+
+### Testing for warnings and errors
 - I tested each page on each browser, for warnings and errors through the browser's console.
 - I found one error in the Firefox browser. 
 After searching the error it indicated to me that I had to add this meta tag to the head: '<meta charset="utf-8"/>'
 
-### the ways I tested the website
+### The ways I tested the website
 
 - I consistantly tested the page in developemt for Chrome. 
 - After each GitHub commit, I would test the hosted website on Chrome.
@@ -419,24 +440,6 @@ This was particularily in relation to image/link sizes, page heights and div pad
  - After searching this error online, I discovered I needed to attach this meta tag to the head of each page: ' <meta charset="utf-8"/> '
 - After attaching it, the error dissapeared.
 
-In this section, you need to convince the assessor that you have conducted enough testing 
-to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
 ## Deployment
 
 - I first set up a GitHub repository on my GitHub account. I named it 'band-website'.
@@ -449,8 +452,6 @@ You should also mention in this section any interesting bugs or problems you dis
 This can happen with sensitive information, such as third hand API's. This is why I re-tested the webpage from GitHub pages.
 
 ## Credits
-
-- All copywrite credits go to the Scorpions and other media pages (see the Media section).
 
 ### Content
 
