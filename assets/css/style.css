@@ -23,11 +23,11 @@ header {
 }
 
 footer {
- position: relative;
-  margin-top: -154px;
-  /* negative value of footer height */
-  height: 156px;
-  clear: both;
+    position: relative;
+    margin-top: -154px;
+    /* negative value of footer height */
+    height: 156px;
+    clear: both;
 }
 
 section {
