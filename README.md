@@ -232,18 +232,21 @@ I will also add a pop up for when the message is sent. The only reason I didn't 
 
 The following is my work in progress for a pop up:
 
-<script>
+```javascript
     var input1 = document.getElementById("exampleFormControlInput1");
     var input2 = document.getElementById("exampleFormControlInput2");
     var input3 = document.getElementById("exampleFormControlInput3");
     var textarea = document.getElementById("exampleFormControlTextarea1");
     var submitButton = document.getElementById("submitButton");
     submitButton.onclick = function(){
-        if (input1.value !== "" && input2.value !== "" && input3.value !== "" && textarea.value !== "") {
+        if (input1.value !== "" 
+            && input2.value !== "" 
+            && input3.value !== "" 
+            && textarea.value !== "") {
             alert("submitted!")
         };
     }
-</script>
+```
 
 #### Color schemes (of all pages)
 Originally had more a variety of colors, but somebody on on Slack made a suggestion to me to use a max of three colors.
@@ -433,6 +436,7 @@ I fixed this immediately by using '100vh' for page heights and having the sectio
 - After I felt confident with the project, I tested it out on Safari, Chrome and Firefox all together.
 Unfortunately, I had to compensate some of my design decisions to make it work on all browsers and devices.
 This was particularily in relation to image/link sizes, page heights and div padding/margins.
+- A friend of mine tested the website on Internet Explorer and said there were no problems with the webpage.
 
 ### errors and warnings encountered
  - Upon testing the webpage on Firefox, I came accross the following error: 
